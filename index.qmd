@@ -1,5 +1,5 @@
 ---
-title: "Manuel"
+title: "Présentation de Kobotoolbox"
 format: revealjs
 editor: visual
 ---
