@@ -41,7 +41,16 @@ Le logiciel est gratuit et open source et fonctionne à la fois en ligne et hors
 - Collecte par telephone, tablette ou ordinateurs
 - Plusieurs types de questions
 
+## Plateforme & Application 
 
+ **Plateforme**
+- Créer, modifier et déployer des formulaires
+- Stocker, Vérifier, modifier, visualiser , télécharger les données
+ **Application**
+ - Télécharger les formulaires d'enquêtes
+ - Collecter des données via  telephone, tablette ou ordinateur
+ -Envoyer des reponses sur le serveur Kobotoolbox
+ 
 ## 2-Manipulation
 
 ## 2.1-Création de compte
