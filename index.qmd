@@ -2,13 +2,9 @@
 title: "Présentation de Kobotoolbox"
 format: revealjs
 editor: visual
+author: "Labaly TOURE"
 ---
 
-## Qu'est-ce que KobotoolBox ?
-
-KobotoolBox a été conçu pour les professionnels des droits de l'homme et de l'aide humanitaire, mais peut être utilisé pour répondre à tous vos besoins de recherche. En effet, c'est une suite d'outils pour la collecte de données sur le terrain à utiliser dans des environnements difficiles.
-
-Le logiciel est gratuit et open source et fonctionne à la fois en ligne et hors ligne. À partir du moment où vous créez un compte, tous les utilisateurs ont accès à l'ensemble des fonctionnalités disponibles sur la plateforme KobotoolBox.
 
 ## **Plan**
 
@@ -22,6 +18,29 @@ Le logiciel est gratuit et open source et fonctionne à la fois en ligne et hors
 
 
 ## 1-  Introduction 
+
+KobotoolBox a été conçu pour les professionnels des droits de l'homme et de l'aide humanitaire, mais peut être utilisé pour répondre à tous vos besoins de recherche. En effet, c'est une suite d'outils pour la collecte de données sur le terrain à utiliser dans des environnements difficiles.
+
+Le logiciel est gratuit et open source et fonctionne à la fois en ligne et hors ligne. À partir du moment où vous créez un compte, tous les utilisateurs ont accès à l'ensemble des fonctionnalités disponibles sur la plateforme KobotoolBox.
+
+## Utilisateurs
+
+- **Organisations à but non lucratif**( projets de développement, d'aide humanitaire, de suivi des programmes et de recherche)
+
+- **Agences gouvernementales**(données dans des domaines tels que la santé publique, l'éducation, l'agriculture, la planification urbaine)
+
+- **Institutions de recherche**(chercheur·es et ingénieur·es de différentes disciplines (sociologie, géographie, archéologie, géomatique, démographie, biologie, ect.)
+
+## Pourquoi Kobotoolbox 
+- Systéme de collecte de données numériques
+- Toute enquête quantitative
+- Gratuit, facile à utiliser
+- Capacité de stockage
+- Multi langues
+- Collecte on line / off line 
+- Collecte par telephone, tablette ou ordinateurs
+- Plusieurs types de questions
+
 
 ## 2-Manipulation
 
