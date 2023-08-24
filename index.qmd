@@ -10,8 +10,22 @@ KobotoolBox a été conçu pour les professionnels des droits de l'homme et de l
 
 Le logiciel est gratuit et open source et fonctionne à la fois en ligne et hors ligne. À partir du moment où vous créez un compte, tous les utilisateurs ont accès à l'ensemble des fonctionnalités disponibles sur la plateforme KobotoolBox.
 
-## Plan 
-## Création de compte
+## **Plan**
+
+1- Introduction
+
+2- Manipulation
+
+3- Cas d'utilisation
+
+4- Conclusion
+
+
+## 1-  Introduction 
+
+## 2-Manipulation
+
+## 2.1-Création de compte
 
 Pour utiliser KobotoolBox, il faut d'abord ouvrir un compte en visitant le site web : http://www.kobotoolbox.org et suivre les instructions comme indiquées sur les images suivantes.
 
@@ -35,6 +49,22 @@ Cliquer sur New
 
 Renseigner les informations sur le questionnaire ![](images/3a.jpg){width="465"}
 
-## Ecrire les questions
+## Création du formulaire
 
 Une fois les paramétres renseignés, cliquez sur le signe + pour saisir votre première question ![](images/5a.jpg) Définir le type de question ![](images/7a.jpg)
+
+
+## 2.2- Deploiement des formulaires 
+
+
+## 2.3 Collecte des données 
+
+
+## 2.4- Gestion des utilisateurs et de la sécurité 
+
+- Création de comptes utilisateur et attribution des rôles appropriés.
+
+- Gestion de la sécurité et des autorisations pour protéger les données sensibles.
+
+## 4-Cas d'utilisation spécifiques
+
