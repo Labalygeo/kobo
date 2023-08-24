@@ -10,6 +10,7 @@ KobotoolBox a été conçu pour les professionnels des droits de l'homme et de l
 
 Le logiciel est gratuit et open source et fonctionne à la fois en ligne et hors ligne. À partir du moment où vous créez un compte, tous les utilisateurs ont accès à l'ensemble des fonctionnalités disponibles sur la plateforme KobotoolBox.
 
+## Plan 
 ## Création de compte
 
 Pour utiliser KobotoolBox, il faut d'abord ouvrir un compte en visitant le site web : http://www.kobotoolbox.org et suivre les instructions comme indiquées sur les images suivantes.
