@@ -92,8 +92,10 @@ Possibiliter de télécharger le questionnaire  dans l'application kobo collect 
 
 ## 5- Collecte des données
 - Kobocollect
+- URL 
+- Enketo
 
-## 2.4- Gestion des utilisateurs et de la sécurité
+## 2.4- Visualisation des réponses
 
 -   Création de comptes utilisateur et attribution des rôles appropriés.
 
