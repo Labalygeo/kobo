@@ -11,6 +11,11 @@ author: "Labaly TOURE"
 
 2- Manipulation
 
+  - Création de compte
+  - Saisie de questionnaire
+  - Collecte des données 
+  - Visualisation des données
+
 3- Cas d'utilisation
 
 4- Conclusion
@@ -44,9 +49,8 @@ Le logiciel est gratuit et open source et fonctionne à la fois en ligne et hors
 
 **Plateforme** - Créer, modifier et déployer des formulaires - Stocker, Vérifier, modifier, visualiser , télécharger les données **Application** - Télécharger les formulaires d'enquêtes - Collecter des données via telephone, tablette ou ordinateur -Envoyer des reponses sur le serveur Kobotoolbox
 
-## 2-Manipulation
 
-## 2.1-Création de compte
+## 2-Création de compte
 
 Pour utiliser KobotoolBox, il faut d'abord ouvrir un compte en visitant le site web : http://www.kobotoolbox.org et suivre les instructions comme indiquées sur les images suivantes.
 
@@ -58,14 +62,14 @@ Pour utiliser KobotoolBox, il faut d'abord ouvrir un compte en visitant le site 
 
 ![](images/champs.jpg)
 
-## 2.2- Activation du compte
+## 3- Activation du compte
 
 Une fois que cette étape effectuée, vous recevrez un mail pour activer votre compte.
 
 ![](images/activate.jpg)
 
 
-## 3- Création du formulaire
+## 4- Création du formulaire
 
 Cliquer sur New pour créer le questionnaire
 
@@ -73,16 +77,16 @@ Cliquer sur New pour créer le questionnaire
 
 Renseigner les informations sur le questionnaire ![](images/3a.jpg){width="465"}
 
- ## 3.1- Saisie des questions
+ ## 4.1- Saisie des questions
  
 Une fois les paramétres renseignés, cliquez sur le signe + pour saisir votre première question ![](images/5a.jpg) Définir le type de question ![](images/7a.jpg)
 
 ## Types de questions 
 ![](images/questions.jpg)
 
-## 3.3- Création du questionnaire via XLS form
+## 4.2- Création du questionnaire via XLS form
 
-## 4- Deploiement des formulaires
+## 5- Deploiement des formulaires
 
 Une foisle questionaire saisi et validé, il doit être déployé pour activer la phase de collecte. Un lien sera automatiquement créé.
 
@@ -90,18 +94,16 @@ Une foisle questionaire saisi et validé, il doit être déployé pour activer l
 ![](images/link.jpg)
 Possibiliter de télécharger le questionnaire  dans l'application kobo collect ou enketo
 
-## 5- Collecte des données
+## 6- Collecte des données
 - Kobocollect
 - URL 
 - Enketo
 
-## 2.4- Visualisation des réponses
+## 7- Visualisation des réponses
 
--   Création de comptes utilisateur et attribution des rôles appropriés.
 
--   Gestion de la sécurité et des autorisations pour protéger les données sensibles.
 
-## 4-Cas d'utilisation spécifiques
+## 8-Cas d'utilisation spécifiques
 
 - Plateforme de suivi des réalisations du projet PRAPS 
 - Colleecte des données pour le plan d'occupation et d'affectation des sols de Ngueniene
