@@ -5,7 +5,6 @@ editor: visual
 author: "Labaly TOURE"
 ---
 
-
 ## **Plan**
 
 1- Introduction
@@ -16,8 +15,7 @@ author: "Labaly TOURE"
 
 4- Conclusion
 
-
-## 1-  Introduction 
+## 1- Introduction
 
 KobotoolBox a été conçu pour les professionnels des droits de l'homme et de l'aide humanitaire, mais peut être utilisé pour répondre à tous vos besoins de recherche. En effet, c'est une suite d'outils pour la collecte de données sur le terrain à utiliser dans des environnements difficiles.
 
@@ -25,32 +23,27 @@ Le logiciel est gratuit et open source et fonctionne à la fois en ligne et hors
 
 ## Utilisateurs
 
-- **Organisations à but non lucratif**( projets de développement, d'aide humanitaire, de suivi des programmes et de recherche)
+-   **Organisations à but non lucratif**( projets de développement, d'aide humanitaire, de suivi des programmes et de recherche)
 
-- **Agences gouvernementales**(données dans des domaines tels que la santé publique, l'éducation, l'agriculture, la planification urbaine)
+-   **Agences gouvernementales**(données dans des domaines tels que la santé publique, l'éducation, l'agriculture, la planification urbaine)
 
-- **Institutions de recherche**(chercheur·es et ingénieur·es de différentes disciplines (sociologie, géographie, archéologie, géomatique, démographie, biologie, ect.)
+-   **Institutions de recherche**(chercheur·es et ingénieur·es de différentes disciplines (sociologie, géographie, archéologie, géomatique, démographie, biologie, ect.)
 
-## Pourquoi Kobotoolbox 
-- Systéme de collecte de données numériques
-- Toute enquête quantitative
-- Gratuit, facile à utiliser
-- Capacité de stockage
-- Multi langues
-- Collecte on line / off line 
-- Collecte par telephone, tablette ou ordinateurs
-- Plusieurs types de questions
+## Pourquoi Kobotoolbox
 
-## Plateforme & Application 
+-   Systéme de collecte de données numériques
+-   Toute enquête quantitative
+-   Gratuit, facile à utiliser
+-   Capacité de stockage
+-   Multi langues
+-   Collecte on line / off line
+-   Collecte par telephone, tablette ou ordinateurs
+-   Plusieurs types de questions
 
- **Plateforme**
-- Créer, modifier et déployer des formulaires
-- Stocker, Vérifier, modifier, visualiser , télécharger les données
- **Application**
- - Télécharger les formulaires d'enquêtes
- - Collecter des données via  telephone, tablette ou ordinateur
- -Envoyer des reponses sur le serveur Kobotoolbox
- 
+## Plateforme & Application
+
+**Plateforme** - Créer, modifier et déployer des formulaires - Stocker, Vérifier, modifier, visualiser , télécharger les données **Application** - Télécharger les formulaires d'enquêtes - Collecter des données via telephone, tablette ou ordinateur -Envoyer des reponses sur le serveur Kobotoolbox
+
 ## 2-Manipulation
 
 ## 2.1-Création de compte
@@ -65,34 +58,51 @@ Pour utiliser KobotoolBox, il faut d'abord ouvrir un compte en visitant le site 
 
 ![](images/champs.jpg)
 
+## 2.2- Activation du compte
+
 Une fois que cette étape effectuée, vous recevrez un mail pour activer votre compte.
 
 ![](images/activate.jpg)
 
-## Paramétres du questionnaire
 
-Cliquer sur New
+## 3- Création du formulaire
+
+Cliquer sur New pour créer le questionnaire
 
 ![](images/2a.jpg){width="498"}
 
 Renseigner les informations sur le questionnaire ![](images/3a.jpg){width="465"}
 
-## Création du formulaire
-
+ ## 3.1- Saisie des questions
+ 
 Une fois les paramétres renseignés, cliquez sur le signe + pour saisir votre première question ![](images/5a.jpg) Définir le type de question ![](images/7a.jpg)
 
+## Types de questions 
+![](images/questions.jpg)
 
-## 2.2- Deploiement des formulaires 
+## 3.3- Création du questionnaire via XLS form
 
+## 4- Deploiement des formulaires
 
-## 2.3 Collecte des données 
+Une foisle questionaire saisi et validé, il doit être déployé pour activer la phase de collecte. Un lien sera automatiquement créé.
 
+![](images/deploy.jpg)
+![](images/link.jpg)
+Possibiliter de télécharger le questionnaire  dans l'application kobo collect ou enketo
 
-## 2.4- Gestion des utilisateurs et de la sécurité 
+## 5- Collecte des données
+- Kobocollect
 
-- Création de comptes utilisateur et attribution des rôles appropriés.
+## 2.4- Gestion des utilisateurs et de la sécurité
 
-- Gestion de la sécurité et des autorisations pour protéger les données sensibles.
+-   Création de comptes utilisateur et attribution des rôles appropriés.
+
+-   Gestion de la sécurité et des autorisations pour protéger les données sensibles.
 
 ## 4-Cas d'utilisation spécifiques
+
+- Plateforme de suivi des réalisations du projet PRAPS 
+- Colleecte des données pour le plan d'occupation et d'affectation des sols de Ngueniene
+- Cartographie des structures de formation professionnelle et technique du Sénégal
+- Cartographie des parcelles agricoles
 
