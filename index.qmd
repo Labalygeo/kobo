@@ -8,15 +8,13 @@ author: "Labaly TOURE"
 ## **Plan**
 
 1- Introduction
-
-2- Manipulation
+2- Cas d'utilisation 
+3- Manipulation
 
   - Création de compte
   - Saisie de questionnaire
   - Collecte des données 
   - Visualisation des données
-
-3- Cas d'utilisation
 
 4- Conclusion
 
@@ -44,6 +42,31 @@ Le logiciel est gratuit et open source et fonctionne à la fois en ligne et hors
 -   Collecte on line / off line
 -   Collecte par telephone, tablette ou ordinateurs
 -   Plusieurs types de questions
+-   Open Source
+
+## Configurations de serveurs privés
+With a dedicated server, you can choose the best set up for your organization from a variety of options, including:
+
+- Hébergement avec Amazon Web Services (AWS) ou Microsoft Azure
+- Emplacement du serveur aux États-Unis ou dans l'Union européenne, avec une infrastructure qui évolue en fonction de l'utilisation
+- Création de marque personnalisée pour l'URL (par exemple, kobo.yourorganization.org), le logo, etc.
+- Configurations de sécurité améliorées
+- Enregistrement de compte personnalisable et messages de confirmation par e-mail
+
+## Cas d'utilisation 
+
+- Plateforme de suivi des réalisations du projet PRAPS 
+- Cartographie des structures de formation professionnelle et technique du Sénégal
+ <https://ee.kobotoolbox.org/x/GlZTfTgW>
+ 
+- Cartographie digitale des ONG et Associations - Santé 
+<https://ee.kobotoolbox.org/x/zeymfpyg>
+
+- Cartographie des projets et programmes du secteur rural en Guinée 
+<https://ee.kobotoolbox.org/x/8n6LAaXy>
+
+- Conflits fonciers(SEEN SUUF)
+<https://ee.kobotoolbox.org/x/DQ9Jje0M>
 
 ## Plateforme & Application
 
@@ -103,10 +126,5 @@ Possibiliter de télécharger le questionnaire  dans l'application kobo collect 
 
 
 
-## 8-Cas d'utilisation spécifiques
 
-- Plateforme de suivi des réalisations du projet PRAPS 
-- Colleecte des données pour le plan d'occupation et d'affectation des sols de Ngueniene
-- Cartographie des structures de formation professionnelle et technique du Sénégal
-- Cartographie des parcelles agricoles
 
