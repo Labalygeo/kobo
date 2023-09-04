@@ -122,7 +122,11 @@ Possibiliter de télécharger le questionnaire  dans l'application kobo collect 
 - URL 
 - Enketo
 
-## 7- Visualisation des réponses
+## Administration de la collecte
+- Contôle des données collectées 
+- Multi administrateurs
+- Supervision des collecteurs 
+
 
 
 
