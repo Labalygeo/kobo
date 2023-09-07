@@ -1,31 +1,59 @@
 ---
-title: "Présentation de Kobotoolbox -MATE SHS"
-format: 
-  revealjs:
-    theme: [dark, theme_rouge.scss]
-editor: visual
+title: "Un outil libre de collecte de données pour les Sciences Humaines et Sociales"
 author: "Labaly TOURE"
+institute: "Université du Sine Saloum El-hâdj ibrahima NIASS, Sénégal"
+affiliation: <img src="images/logo_PRODIG.png" width="70" style="margin-right:400px;"/><img src="images/USSEIN-LOGO-entete-site.png" width="90" style="margin-right:400px;"/><img src="images/cnrs.png" width="50" />
+img: images/kobo.png
+lang: fr
+format:
+  revealjs: 
+    template-partials:
+      - title-slide.html
+    theme: [dark, theme_rouge.scss]
+    logo: images/geoteca.png
+    footer: "Midi de Géotéca -  Kobotoolbox, un outil libre de collecte de données pour les SHS"
+    scrollable: TRUE
+    smaller: TRUE
+    overview: TRUE
+    chalkboard: TRUE
+    transition: fade
+    transition-speed: fast
+    menu: TRUE
+    css: style.css
+editor: visual
 ---
 
 ## **Plan**
 
-1- Introduction 2- Cas d'utilisation 3- Manipulation - Création de compte - Saisie de questionnaire - Collecte des données - Visualisation des données 4- Limites
+1- Introduction \
+2- Cas d'utilisation \
+3- Manipulation \
+- Création de compte\
+- Saisie de questionnaire\
+- Collecte des données\
+- Visualisation des données\
+4- Limites \
+5- Conclusion 
 
-5- Conclusion
+# Introduction
 
-## 1- Introduction
+## Kobotoolbox ?
 
 KobotoolBox a été conçu pour les professionnels des droits de l'homme et de l'aide humanitaire, mais peut être utilisé pour répondre à tous vos besoins de recherche. En effet, c'est une suite d'outils pour la collecte de données sur le terrain à utiliser dans des environnements difficiles.
 
+## Producteurs & financeurs
+
 ![](images/partenaires.jpg)
 
-## Utilisateurs
+## Utilisateurs ciblés
 
 -   **Organisations à but non lucratif**( projets de développement, d'aide humanitaire, de suivi des programmes et de recherche)
 
 -   **Agences gouvernementales**(données dans des domaines tels que la santé publique, l'éducation, l'agriculture, la planification urbaine)
 
 -   **Institutions de recherche**(chercheur·es et ingénieur·es de différentes disciplines (sociologie, géographie, archéologie, géomatique, démographie, biologie,statistiques,histoire, écologogie, droit, urbaninsme,anthropologie, ect.)
+
+-   usage individuel, relevé terrain, inventaire, notes....
 
 ## Pourquoi Kobotoolbox
 
@@ -41,66 +69,100 @@ KobotoolBox a été conçu pour les professionnels des droits de l'homme et de l
 -   Collaboratif
 -   Gestion des données en temps réel
 
-## Configurations de serveurs privés
+## Kobotoolbox & la RGPD ?
 
-With a dedicated server, you can choose the best set up for your organization from a variety of options, including:
+Les serveurs mis à disposition :
 
 -   Hébergement avec Amazon Web Services (AWS) ou Microsoft Azure
 
 -   Emplacement du serveur aux États-Unis ou dans l'Union européenne, avec une infrastructure qui évolue en fonction de l'utilisation
 
--   Création de marque personnalisée pour l'URL (par exemple, kobo.yourorganization.org), le logo, etc: CIRAD, Université Limoges, UNCHR, Aix Marseille
+Mais :
 
--   ![](images/Capture%20d’écran%202023-09-07%20à%2011.24.25.jpg)
+-   Création de marque personnalisée pour l'URL (par exemple, kobo.yourorganization.org), le logo,
 
--   Configurations de sécurité améliorées 
+-   ![](images/Capture%20d’écran%202023-09-07%20à%2011.24.25.jpg)
 
-## Utlisation de formulaires
+-   Configurations de sécurité améliorées
 
-- Recensement de population
-- Enquête quantitative
-- Enquête qualitative
-- Inventaire & collection
-- Sondage en ligne
-- Carnet de terrain - Observations
-- Cahier de laboratoire
-- Relevé instrumental
+liste d'exemple de serveur kobo :
 
-## Cas d'utilisation
+etc: CIRAD, Université Limoges, UNCHR, Aix Marseille
+
+## Cas d'usages variés
+
+-   Recensement de population
+-   Enquête quantitative
+-   Enquête qualitative
+-   Inventaire & collection
+-   Sondage en ligne
+-   Carnet de terrain - Observations
+-   Cahier de laboratoire
+-   Relevé instrumental
+
+## Quelques exemples personnels
 
 -   Plateforme de suivi des réalisations du projet PRAPS
 
--   Cartographie des structures de formation professionnelle et technique du Sénégal <https://ee.kobotoolbox.org/x/GlZTfTgW>
+-   [Cartographie digitale des ONG et Associations - Santé](https://ee.kobotoolbox.org/x/zeymfpyg)
 
--   Cartographie digitale des ONG et Associations - Santé <https://ee.kobotoolbox.org/x/zeymfpyg>
+-   [Cartographie des projets et programmes du secteur rural en Guinée](https://ee.kobotoolbox.org/x/8n6LAaXy)
 
--   Cartographie des projets et programmes du secteur rural en Guinée <https://ee.kobotoolbox.org/x/8n6LAaXy>
+-   [Conflits fonciers(SEEN SUUF)](https://ee.kobotoolbox.org/x/DQ9Jje0M)
 
--   Conflits fonciers(SEEN SUUF) <https://ee.kobotoolbox.org/x/DQ9Jje0M>
+-   [Cartographie des structures de formation professionnelle et technique du Sénégal](https://ee.kobotoolbox.org/x/GlZTfTgW)
 
-## Plateforme & Application
+![](i&mages/FPT.png)
 
-**Plateforme** - Créer, modifier et déployer des formulaires - Stocker, Vérifier, modifier, visualiser , télécharger les données **Application** - Télécharger les formulaires d'enquêtes - Collecter des données via telephone, tablette ou ordinateur -Envoyer des reponses sur le serveur Kobotoolbox
+## Autres exemples d'utilisation
 
-## 2-Création de compte
+-   Enquête nationnale (Sénégal, Burkina Faso, Mali...)
+-   Nations-Unies (CHR)
+-   Sondage en ligne
+-   Relevé de terrain perso (Kévin poisson)
+
+# Prise en main
+
+## 2 outils pour une enquête
+
+**Plateforme web**\
+- Création, modification et déploiement des formulaires\
+- Suivi et contrôle de la collecte, gestion des droits\
+- Stockage, Vérification, modification des données collectées\
+- Exploration et visualisation des données\
+- Export des données (Excel, JSON, KML...)
+
+**Application de collecte (Kobocollect, Enketo, GIC collect, page web)**\
+- Téléchargement des formulaires d'enquêtes\
+- Saisie des données via telephone, tablette ou ordinateur\
+- Sauvergarde des réponses saisie sur l'appareil\
+- Envoi maitrisé des réponses sur le serveur Kobotoolbox (plateforme)
+
+## Création de compte (1)
 
 Pour utiliser KobotoolBox, il faut d'abord ouvrir un compte en visitant le site web : http://www.kobotoolbox.org et suivre les instructions comme indiquées sur les images suivantes.
 
-## Cliquer sur **Create an account**
+Cliquer sur **Create an account**
 
 ![](images/create.jpg)
 
-## Remplir ensuite les champs.
+## Création de compte (2)
+
+Remplir ensuite les champs.
 
 ![](images/champs.jpg)
 
-## 3- Activation du compte
+## Création de compte (3)
+
+Activation du compte
 
 Une fois que cette étape effectuée, vous recevrez un mail pour activer votre compte.
 
 ![](images/activate.jpg)
 
-## 4- Création du formulaire
+# Démonstration
+
+## 1. Création du formulaire
 
 Cliquer sur New pour créer le questionnaire
 
@@ -108,7 +170,7 @@ Cliquer sur New pour créer le questionnaire
 
 Renseigner les informations sur le questionnaire ![](images/3a.jpg){width="465"}
 
-## 4.1- Saisie des questions
+## 2. Saisie des questions
 
 Une fois les paramétres renseignés, cliquez sur le signe + pour saisir votre première question ![](images/5a.jpg) Définir le type de question ![](images/7a.jpg)
 
@@ -124,21 +186,25 @@ Une foisle questionaire saisi et validé, il doit être déployé pour activer l
 
 ![](images/deploy.jpg) ![](images/link.jpg) Possibiliter de télécharger le questionnaire dans l'application kobo collect ou enketo
 
-## 6- Collecte des données
-
--   Kobocollect
--   URL
--   Enketo
-
-## Administration de la collecte
+## 6 - Administration de la collecte
 
 -   Contôle des données collectées
 -   Multi administrateurs
 -   Supervision des collecteurs
 
+## 7 - Exploration des données colléctés
+
+## 8 - Export des données
+
+Formats et fonctionnement ID média
+
 ## Conclusion
 
--   Plus grande puissance en quanti
--   Nombre de soumissions
--   Attention au respect de la RGPD
--   Pas adapté à toute enquête(longitudinales , ...)
+Point forts :
+
+Limites (mais) : - Plus grande puissance en quanti - Nombre de soumissions - Attention au respect de la RGPD - Pas adapté à toute enquête(longitudinales , ...)
+
+## Ressources utiles
+
+-   support d'utilisation
+-   lien kodo, documentaion...

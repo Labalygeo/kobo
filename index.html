@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en"><head>
+<html lang="fr"><head>
 <script src="index_files/libs/clipboard/clipboard.min.js"></script>
 <script src="index_files/libs/quarto-html/tabby.min.js"></script>
 <script src="index_files/libs/quarto-html/popper.min.js"></script>
@@ -8,10 +8,10 @@
 <link href="index_files/libs/quarto-html/light-border.css" rel="stylesheet">
 <link href="index_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
 <link href="index_files/libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.3.361">
+  <meta name="generator" content="quarto-1.3.433">
 
   <meta name="author" content="Labaly TOURE">
-  <title>Présentation de Kobotoolbox -MATE SHS</title>
+  <title>Un outil libre de collecte de données pour les Sciences Humaines et Sociales</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -31,9 +31,12 @@
     }
   </style>
   <link rel="stylesheet" href="index_files/libs/revealjs/dist/theme/quarto.css">
+  <link rel="stylesheet" href="style.css">
   <link href="index_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="index_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="index_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="index_files/libs/revealjs/plugin/reveal-chalkboard/font-awesome/css/all.css" rel="stylesheet">
+  <link href="index_files/libs/revealjs/plugin/reveal-chalkboard/style.css" rel="stylesheet">
   <link href="index_files/libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
   <style type="text/css">
 
@@ -243,6 +246,7 @@
     }
     .reveal .slide:not(.center) {
       height: 100%;
+      overflow-y: auto;
     }
     .reveal .slide.scrollable {
       overflow-y: auto;
@@ -324,34 +328,52 @@
   <div class="reveal">
     <div class="slides">
 
-<section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">Présentation de Kobotoolbox -MATE SHS</h1>
+<section id="title-slide" class="center">
+  <img class="img" src="images/kobo.png">
+  <p class="title">Un outil libre de collecte de données pour les Sciences Humaines et Sociales</p>
 
-<div class="quarto-title-authors">
-<div class="quarto-title-author">
-<div class="quarto-title-author-name">
-Labaly TOURE 
-</div>
-</div>
-</div>
+<br>
+
+  <p class="author">Labaly TOURE</p>
+  <p class="institute">Université du Sine Saloum El-hâdj ibrahima NIASS, Sénégal</p>
+
+<br>
+
+  <p class="affiliation"><img src="images/logo_PRODIG.png" width="70" style="margin-right:400px;"><img src="images/USSEIN-LOGO-entete-site.png" width="90" style="margin-right:400px;"><img src="images/cnrs.png" width="50"></p>
 
 </section>
 <section id="plan" class="slide level2">
 <h2><strong>Plan</strong></h2>
-<p>1- Introduction 2- Cas d’utilisation 3- Manipulation - Création de compte - Saisie de questionnaire - Collecte des données - Visualisation des données 4- Limites</p>
-<p>5- Conclusion</p>
+<p>1- Introduction&nbsp;<br>
+2- Cas d’utilisation&nbsp;<br>
+3- Manipulation&nbsp;<br>
+- Création de compte<br>
+- Saisie de questionnaire<br>
+- Collecte des données<br>
+- Visualisation des données<br>
+4- Limites&nbsp;<br>
+5- Conclusion&nbsp;</p>
 </section>
-<section id="introduction" class="slide level2">
-<h2>1- Introduction</h2>
+<section>
+<section id="introduction" class="title-slide slide level1 center">
+<h1>Introduction</h1>
+
+</section>
+<section id="kobotoolbox" class="slide level2">
+<h2>Kobotoolbox ?</h2>
 <p>KobotoolBox a été conçu pour les professionnels des droits de l’homme et de l’aide humanitaire, mais peut être utilisé pour répondre à tous vos besoins de recherche. En effet, c’est une suite d’outils pour la collecte de données sur le terrain à utiliser dans des environnements difficiles.</p>
+</section>
+<section id="producteurs-financeurs" class="slide level2">
+<h2>Producteurs &amp; financeurs</h2>
 
 <img data-src="images/partenaires.jpg" class="r-stretch"></section>
-<section id="utilisateurs" class="slide level2">
-<h2>Utilisateurs</h2>
+<section id="utilisateurs-ciblés" class="slide level2">
+<h2>Utilisateurs ciblés</h2>
 <ul>
 <li><p><strong>Organisations à but non lucratif</strong>( projets de développement, d’aide humanitaire, de suivi des programmes et de recherche)</p></li>
 <li><p><strong>Agences gouvernementales</strong>(données dans des domaines tels que la santé publique, l’éducation, l’agriculture, la planification urbaine)</p></li>
 <li><p><strong>Institutions de recherche</strong>(chercheur·es et ingénieur·es de différentes disciplines (sociologie, géographie, archéologie, géomatique, démographie, biologie,statistiques,histoire, écologogie, droit, urbaninsme,anthropologie, ect.)</p></li>
+<li><p>usage individuel, relevé terrain, inventaire, notes….</p></li>
 </ul>
 </section>
 <section id="pourquoi-kobotoolbox" class="slide level2">
@@ -370,19 +392,24 @@ Labaly TOURE
 <li>Gestion des données en temps réel</li>
 </ul>
 </section>
-<section id="configurations-de-serveurs-privés" class="slide level2">
-<h2>Configurations de serveurs privés</h2>
-<p>With a dedicated server, you can choose the best set up for your organization from a variety of options, including:</p>
+<section id="kobotoolbox-la-rgpd" class="slide level2">
+<h2>Kobotoolbox &amp; la RGPD ?</h2>
+<p>Les serveurs mis à disposition :</p>
 <ul>
 <li><p>Hébergement avec Amazon Web Services (AWS) ou Microsoft Azure</p></li>
 <li><p>Emplacement du serveur aux États-Unis ou dans l’Union européenne, avec une infrastructure qui évolue en fonction de l’utilisation</p></li>
-<li><p>Création de marque personnalisée pour l’URL (par exemple, kobo.yourorganization.org), le logo, etc: CIRAD, Université Limoges, UNCHR, Aix Marseille</p></li>
-<li><p><img data-src="images/Capture%20d’écran%202023-09-07%20à%2011.24.25.jpg"></p></li>
+</ul>
+<p>Mais :</p>
+<ul>
+<li><p>Création de marque personnalisée pour l’URL (par exemple, kobo.yourorganization.org), le logo,</p></li>
+<li><p><img data-src="images/Capture%20d’écran%202023-09-07%20à%2011.24.25.jpg"></p></li>
 <li><p>Configurations de sécurité améliorées</p></li>
 </ul>
+<p>liste d’exemple de serveur kobo :</p>
+<p>etc: CIRAD, Université Limoges, UNCHR, Aix Marseille</p>
 </section>
-<section id="utlisation-de-formulaires" class="slide level2">
-<h2>Utlisation de formulaires</h2>
+<section id="cas-dusages-variés" class="slide level2">
+<h2>Cas d’usages variés</h2>
 <ul>
 <li>Recensement de population</li>
 <li>Enquête quantitative</li>
@@ -394,45 +421,75 @@ Labaly TOURE
 <li>Relevé instrumental</li>
 </ul>
 </section>
-<section id="cas-dutilisation" class="slide level2">
-<h2>Cas d’utilisation</h2>
+<section id="quelques-exemples-personnels" class="slide level2">
+<h2>Quelques exemples personnels</h2>
 <ul>
 <li><p>Plateforme de suivi des réalisations du projet PRAPS</p></li>
-<li><p>Cartographie des structures de formation professionnelle et technique du Sénégal <a href="https://ee.kobotoolbox.org/x/GlZTfTgW" class="uri">https://ee.kobotoolbox.org/x/GlZTfTgW</a></p></li>
-<li><p>Cartographie digitale des ONG et Associations - Santé <a href="https://ee.kobotoolbox.org/x/zeymfpyg" class="uri">https://ee.kobotoolbox.org/x/zeymfpyg</a></p></li>
-<li><p>Cartographie des projets et programmes du secteur rural en Guinée <a href="https://ee.kobotoolbox.org/x/8n6LAaXy" class="uri">https://ee.kobotoolbox.org/x/8n6LAaXy</a></p></li>
-<li><p>Conflits fonciers(SEEN SUUF) <a href="https://ee.kobotoolbox.org/x/DQ9Jje0M" class="uri">https://ee.kobotoolbox.org/x/DQ9Jje0M</a></p></li>
+<li><p><a href="https://ee.kobotoolbox.org/x/zeymfpyg">Cartographie digitale des ONG et Associations - Santé</a></p></li>
+<li><p><a href="https://ee.kobotoolbox.org/x/8n6LAaXy">Cartographie des projets et programmes du secteur rural en Guinée</a></p></li>
+<li><p><a href="https://ee.kobotoolbox.org/x/DQ9Jje0M">Conflits fonciers(SEEN SUUF)</a></p></li>
+<li><p><a href="https://ee.kobotoolbox.org/x/GlZTfTgW">Cartographie des structures de formation professionnelle et technique du Sénégal</a></p></li>
 </ul>
+
+<img data-src="i&amp;mages/FPT.png" class="r-stretch"></section>
+<section id="autres-exemples-dutilisation" class="slide level2">
+<h2>Autres exemples d’utilisation</h2>
+<ul>
+<li>Enquête nationnale (Sénégal, Burkina Faso, Mali…)</li>
+<li>Nations-Unies (CHR)</li>
+<li>Sondage en ligne</li>
+<li>Relevé de terrain perso (Kévin poisson)</li>
+</ul>
+</section></section>
+<section>
+<section id="prise-en-main" class="title-slide slide level1 center">
+<h1>Prise en main</h1>
+
 </section>
-<section id="plateforme-application" class="slide level2">
-<h2>Plateforme &amp; Application</h2>
-<p><strong>Plateforme</strong> - Créer, modifier et déployer des formulaires - Stocker, Vérifier, modifier, visualiser , télécharger les données <strong>Application</strong> - Télécharger les formulaires d’enquêtes - Collecter des données via telephone, tablette ou ordinateur -Envoyer des reponses sur le serveur Kobotoolbox</p>
+<section id="outils-pour-une-enquête" class="slide level2">
+<h2>2 outils pour une enquête</h2>
+<p><strong>Plateforme web</strong><br>
+- Création, modification et déploiement des formulaires<br>
+- Suivi et contrôle de la collecte, gestion des droits<br>
+- Stockage, Vérification, modification des données collectées<br>
+- Exploration et visualisation des données<br>
+- Export des données (Excel, JSON, KML…)</p>
+<p><strong>Application de collecte (Kobocollect, Enketo, GIC collect, page web)</strong><br>
+- Téléchargement des formulaires d’enquêtes<br>
+- Saisie des données via telephone, tablette ou ordinateur<br>
+- Sauvergarde des réponses saisie sur l’appareil<br>
+- Envoi maitrisé des réponses sur le serveur Kobotoolbox (plateforme)</p>
 </section>
-<section id="création-de-compte" class="slide level2">
-<h2>2-Création de compte</h2>
+<section id="création-de-compte-1" class="slide level2">
+<h2>Création de compte (1)</h2>
 <p>Pour utiliser KobotoolBox, il faut d’abord ouvrir un compte en visitant le site web : http://www.kobotoolbox.org et suivre les instructions comme indiquées sur les images suivantes.</p>
-</section>
-<section id="cliquer-sur-create-an-account" class="slide level2">
-<h2>Cliquer sur <strong>Create an account</strong></h2>
+<p>Cliquer sur <strong>Create an account</strong></p>
 
 <img data-src="images/create.jpg" class="r-stretch"></section>
-<section id="remplir-ensuite-les-champs." class="slide level2">
-<h2>Remplir ensuite les champs.</h2>
+<section id="création-de-compte-2" class="slide level2">
+<h2>Création de compte (2)</h2>
+<p>Remplir ensuite les champs.</p>
 
 <img data-src="images/champs.jpg" class="r-stretch"></section>
-<section id="activation-du-compte" class="slide level2">
-<h2>3- Activation du compte</h2>
+<section id="création-de-compte-3" class="slide level2">
+<h2>Création de compte (3)</h2>
+<p>Activation du compte</p>
 <p>Une fois que cette étape effectuée, vous recevrez un mail pour activer votre compte.</p>
 
-<img data-src="images/activate.jpg" class="r-stretch"></section>
+<img data-src="images/activate.jpg" class="r-stretch"></section></section>
+<section>
+<section id="démonstration" class="title-slide slide level1 center">
+<h1>Démonstration</h1>
+
+</section>
 <section id="création-du-formulaire" class="slide level2">
-<h2>4- Création du formulaire</h2>
+<h2>1. Création du formulaire</h2>
 <p>Cliquer sur New pour créer le questionnaire</p>
 <p><img data-src="images/2a.jpg" width="498"></p>
 <p>Renseigner les informations sur le questionnaire <img data-src="images/3a.jpg" width="465"></p>
 </section>
 <section id="saisie-des-questions" class="slide level2">
-<h2>4.1- Saisie des questions</h2>
+<h2>2. Saisie des questions</h2>
 <p>Une fois les paramétres renseignés, cliquez sur le signe + pour saisir votre première question <img data-src="images/5a.jpg"> Définir le type de question <img data-src="images/7a.jpg"></p>
 </section>
 <section id="types-de-questions" class="slide level2">
@@ -447,34 +504,37 @@ Labaly TOURE
 <p>Une foisle questionaire saisi et validé, il doit être déployé pour activer la phase de collecte. Un lien sera automatiquement créé.</p>
 <p><img data-src="images/deploy.jpg"> <img data-src="images/link.jpg"> Possibiliter de télécharger le questionnaire dans l’application kobo collect ou enketo</p>
 </section>
-<section id="collecte-des-données" class="slide level2">
-<h2>6- Collecte des données</h2>
-<ul>
-<li>Kobocollect</li>
-<li>URL</li>
-<li>Enketo</li>
-</ul>
-</section>
 <section id="administration-de-la-collecte" class="slide level2">
-<h2>Administration de la collecte</h2>
+<h2>6 - Administration de la collecte</h2>
 <ul>
 <li>Contôle des données collectées</li>
 <li>Multi administrateurs</li>
 <li>Supervision des collecteurs</li>
 </ul>
 </section>
+<section id="exploration-des-données-colléctés" class="slide level2">
+<h2>7 - Exploration des données colléctés</h2>
+</section>
+<section id="export-des-données" class="slide level2">
+<h2>8 - Export des données</h2>
+<p>Formats et fonctionnement ID média</p>
+</section>
 <section id="conclusion" class="slide level2">
 <h2>Conclusion</h2>
-<ul>
-<li>Plus grande puissance en quanti</li>
-<li>Nombre de soumissions</li>
-<li>Attention au respect de la RGPD</li>
-<li>Pas adapté à toute enquête(longitudinales , …)</li>
-</ul>
-<div class="footer footer-default">
-
-</div>
+<p>Point forts :</p>
+<p>Limites (mais) : - Plus grande puissance en quanti - Nombre de soumissions - Attention au respect de la RGPD - Pas adapté à toute enquête(longitudinales , …)</p>
 </section>
+<section id="ressources-utiles" class="slide level2">
+<h2>Ressources utiles</h2>
+<ul>
+<li>support d’utilisation</li>
+<li>lien kodo, documentaion…</li>
+</ul>
+
+<img src="images/geoteca.png" class="slide-logo r-stretch"><div class="footer footer-default">
+<p>Midi de Géotéca - Kobotoolbox, un outil libre de collecte de données pour les SHS</p>
+</div>
+</section></section>
     </div>
   </div>
 
@@ -485,6 +545,7 @@ Labaly TOURE
   <script src="index_files/libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
   <script src="index_files/libs/revealjs/plugin/reveal-menu/menu.js"></script>
   <script src="index_files/libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="index_files/libs/revealjs/plugin/reveal-chalkboard/plugin.js"></script>
   <script src="index_files/libs/revealjs/plugin/quarto-support/support.js"></script>
   
 
@@ -501,13 +562,14 @@ Labaly TOURE
       Reveal.initialize({
 'controlsAuto': true,
 'previewLinksAuto': false,
-'smaller': false,
+'smaller': true,
 'pdfSeparateFragments': false,
 'autoAnimateEasing': "ease",
 'autoAnimateDuration': 1,
 'autoAnimateUnmatched': true,
-'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
-'smaller': false,
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleChalkboard(event)\"><kbd>b</kbd> Toggle Chalkboard</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleNotesCanvas(event)\"><kbd>c</kbd> Toggle Notes Canvas</a></li>\n<li class=\"slide-tool-item\" data-item=\"6\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.downloadDrawings(event)\"><kbd>d</kbd> Download Drawings</a></li>\n<li class=\"slide-tool-item\" data-item=\"7\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'chalkboard': {"buttons":true},
+'smaller': true,
  
         // Display controls in the bottom right corner
         controls: false,
@@ -632,10 +694,10 @@ Labaly TOURE
         previewLinks: false,
 
         // Transition style (none/fade/slide/convex/concave/zoom)
-        transition: 'none',
+        transition: 'fade',
 
         // Transition speed (default/fast/slow)
-        transitionSpeed: 'default',
+        transitionSpeed: 'fast',
 
         // Transition style for full page slide backgrounds
         // (none/fade/slide/convex/concave/zoom)
@@ -677,7 +739,7 @@ Labaly TOURE
         },
 
         // reveal.js plugins
-        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, QuartoSupport,
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealChalkboard, QuartoSupport,
 
           RevealMath,
           RevealNotes,
@@ -737,12 +799,12 @@ Labaly TOURE
         // flash "checked"
         button.classList.add('code-copy-button-checked');
         var currentTitle = button.getAttribute("title");
-        button.setAttribute("title", "Copied!");
+        button.setAttribute("title", "Copié");
         let tooltip;
         if (window.bootstrap) {
           button.setAttribute("data-bs-toggle", "tooltip");
           button.setAttribute("data-bs-placement", "left");
-          button.setAttribute("data-bs-title", "Copied!");
+          button.setAttribute("data-bs-title", "Copié");
           tooltip = new bootstrap.Tooltip(button, 
             { trigger: "manual", 
               customClass: "code-copy-button-tooltip",
