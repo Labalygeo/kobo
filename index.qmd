@@ -25,10 +25,11 @@ KobotoolBox a été conçu pour les professionnels des droits de l'homme et de l
 
 -   **Agences gouvernementales**(données dans des domaines tels que la santé publique, l'éducation, l'agriculture, la planification urbaine)
 
--   **Institutions de recherche**(chercheur·es et ingénieur·es de différentes disciplines (sociologie, géographie, archéologie, géomatique, démographie, biologie,statistiques, ect.)
+-   **Institutions de recherche**(chercheur·es et ingénieur·es de différentes disciplines (sociologie, géographie, archéologie, géomatique, démographie, biologie,statistiques,histoire, écologogie, droit, urbaninsme,anthropologie, ect.)
 
 ## Pourquoi Kobotoolbox
 
+-   Technologie ODK
 -   Systéme de collecte de données numériques
 -   Toute enquête **quantitative** et qualitative
 -   Gratuit, facile à utiliser et Open Source
@@ -38,16 +39,32 @@ KobotoolBox a été conçu pour les professionnels des droits de l'homme et de l
 -   Collecte par telephone, tablette ou ordinateurs
 -   De nombreux types de questions
 -   Collaboratif
+-   Gestion des données en temps réel
 
 ## Configurations de serveurs privés
 
 With a dedicated server, you can choose the best set up for your organization from a variety of options, including:
 
 -   Hébergement avec Amazon Web Services (AWS) ou Microsoft Azure
+
 -   Emplacement du serveur aux États-Unis ou dans l'Union européenne, avec une infrastructure qui évolue en fonction de l'utilisation
--   Création de marque personnalisée pour l'URL (par exemple, kobo.yourorganization.org), le logo, etc.
--   Configurations de sécurité améliorées
--   Enregistrement de compte personnalisable et messages de confirmation par e-mail
+
+-   Création de marque personnalisée pour l'URL (par exemple, kobo.yourorganization.org), le logo, etc: CIRAD, Université Limoges, UNCHR, Aix Marseille
+
+-   ![](images/Capture%20d’écran%202023-09-07%20à%2011.24.25.jpg)
+
+-   Configurations de sécurité améliorées 
+
+## Utlisation de formulaires
+
+- Recensement de population
+- Enquête quantitative
+- Enquête qualitative
+- Inventaire & collection
+- Sondage en ligne
+- Carnet de terrain - Observations
+- Cahier de laboratoire
+- Relevé instrumental
 
 ## Cas d'utilisation
 
@@ -91,7 +108,7 @@ Cliquer sur New pour créer le questionnaire
 
 Renseigner les informations sur le questionnaire ![](images/3a.jpg){width="465"}
 
-\## 4.1- Saisie des questions
+## 4.1- Saisie des questions
 
 Une fois les paramétres renseignés, cliquez sur le signe + pour saisir votre première question ![](images/5a.jpg) Définir le type de question ![](images/7a.jpg)
 
@@ -118,3 +135,10 @@ Une foisle questionaire saisi et validé, il doit être déployé pour activer l
 -   Contôle des données collectées
 -   Multi administrateurs
 -   Supervision des collecteurs
+
+## Conclusion
+
+-   Plus grande puissance en quanti
+-   Nombre de soumissions
+-   Attention au respect de la RGPD
+-   Pas adapté à toute enquête(longitudinales , ...)
