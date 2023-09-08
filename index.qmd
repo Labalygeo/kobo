@@ -39,9 +39,7 @@ editor: visual
 
 ## Kobotoolbox ?
 
-KobotoolBox a été conçu pour les professionnels des droits de l'homme et de l'aide humanitaire, mais peut être utilisé pour répondre à tous vos besoins de recherche.  Il se compose donc d’une plateforme en ligne (serveur) et d’une application de collecte de données (Kobo Collect). Il est développé par la Harvard Humanitarian Initiative pour une utilisation facile et fiable dans des contextes de terrain difficiles, tels que les urgences humanitaires ou les environnements post-conflit.
-![](images/server.jpg)
-## Producteurs & financeurs
+KobotoolBox a été conçu pour les professionnels des droits de l'homme et de l'aide humanitaire, mais peut être utilisé pour répondre à tous vos besoins de recherche. Il se compose donc d'une plateforme en ligne (serveur) et d'une application de collecte de données (Kobo Collect). Il est développé par la Harvard Humanitarian Initiative pour une utilisation facile et fiable dans des contextes de terrain difficiles, tels que les urgences humanitaires ou les environnements post-conflit. ![](images/server.jpg) \## Producteurs & financeurs
 
 ![](images/partenaires.jpg)
 
@@ -175,8 +173,8 @@ Renseigner les informations sur le questionnaire ![](images/3a.jpg){width="465"}
 Une fois les paramétres renseignés, cliquez sur le signe + pour saisir votre première question ![](images/5a.jpg) Définir le type de question ![](images/7a.jpg)
 
 ## Types de questions
-[Types de questions](https://support.kobotoolbox.org/question_types.html)
-![](images/questions.jpg)
+
+[Types de questions](https://support.kobotoolbox.org/question_types.html) ![](images/questions.jpg)
 
 ## 4.2- Création du questionnaire via XLS form
 
@@ -206,8 +204,6 @@ Limites (mais) : - Plus grande puissance en quanti - Nombre de soumissions - Att
 
 ## Ressources utiles
 
-- <https://www.kobotoolbox.org>
-- <https://docs.google.com/presentation/d/1vJMWBBcMNlnQP1dUa7WsTuA4mSwifgEnj-TtjGwmcuY/htmlpresent>
-- <https://cartong.pages.gitlab.cartong.org/learning-corner/fr/8_managing_mdc/8_2_tool_focus/8_2_4_correction>
--[Communauté](https://community.kobotoolbox.org)
--[Support](https://support.kobotoolbox.org)
+-   <https://www.kobotoolbox.org>
+-   <https://docs.google.com/presentation/d/1vJMWBBcMNlnQP1dUa7WsTuA4mSwifgEnj-TtjGwmcuY/htmlpresent>
+-   <https://cartong.pages.gitlab.cartong.org/learning-corner/fr/8_managing_mdc/8_2_tool_focus/8_2_4_correction> -[Communauté](https://community.kobotoolbox.org) -[Support](https://support.kobotoolbox.org)
