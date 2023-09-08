@@ -11,7 +11,7 @@ format:
       - title-slide.html
     theme: [dark, theme_rouge.scss]
     logo: images/geoteca.png
-    footer: "Midi de Géotéca -  Kobotoolbox, un outil libre de collecte de données pour les SHS"
+    footer: "Midi de Géotéca -  KoBotoolBox, un outil libre de collecte de données pour les SHS"
     scrollable: TRUE
     smaller: TRUE
     overview: TRUE
@@ -23,27 +23,51 @@ format:
 editor: visual
 ---
 
-## **Plan**
+## **Sommaire** {.smaller}
 
-1- Introduction \
-2- Cas d'utilisation \
-3- Manipulation \
-- Création de compte\
-- Saisie de questionnaire\
-- Collecte des données\
-- Visualisation des données\
-4- Limites \
-5- Conclusion 
+::: columns
+::: {.column width="50%"}
+\
+\
 
-# Introduction
+![](images/kobo_1.png){.biglist}
+:::
 
-## Kobotoolbox ?
+::: {.column width="50%"}
+::: {.bold .txtbis}
+1.  KoBo ?\
+2.  Cas d'usage\
+3.  Prise en main\
+:::
 
-KobotoolBox a été conçu pour les professionnels des droits de l'homme et de l'aide humanitaire, mais peut être utilisé pour répondre à tous vos besoins de recherche. Il se compose donc d'une plateforme en ligne (serveur) et d'une application de collecte de données (Kobo Collect). Il est développé par la Harvard Humanitarian Initiative pour une utilisation facile et fiable dans des contextes de terrain difficiles, tels que les urgences humanitaires ou les environnements post-conflit. ![](images/server.jpg) \## Producteurs & financeurs
+::: {.biglist .blue}
+-   Création de compte\
+-   Saisie de questionnaire\
+-   Collecte de données\
+-   Gestion & exploration des données
+-   Export des données collectées
+:::
+
+::: bold
+4.  Limites \
+5.  Conclusion \
+:::
+:::
+:::
+
+# KoBo ?
+
+## Objectifs initiaux {.smaller}
+
+**KoBotoolBox a été conçu pour les professionnels des droits de l'homme et de l'aide humanitaire, mais peut être utilisé pour répondre à tous vos besoins de recherche.**
+
+Il est développé par la ***Harvard Humanitarian Initiative*** pour une utilisation facile et fiable dans des contextes de terrain difficiles, tels que les urgences humanitaires ou les environnements post-conflit.
 
 ![](images/partenaires.jpg)
 
-## Utilisateurs ciblés
+## Public cible {.smaller}
+
+\
 
 -   **Organisations à but non lucratif**( projets de développement, d'aide humanitaire, de suivi des programmes et de recherche)
 
@@ -51,66 +75,162 @@ KobotoolBox a été conçu pour les professionnels des droits de l'homme et de l
 
 -   **Institutions de recherche**(chercheur·es et ingénieur·es de différentes disciplines (sociologie, géographie, archéologie, géomatique, démographie, biologie,statistiques,histoire, écologogie, droit, urbaninsme,anthropologie, ect.)
 
--   usage individuel, relevé terrain, inventaire, notes....
+ 
 
-## Pourquoi Kobotoolbox
+::: columns
+::: {.column width="65%"}
+\
 
--   Technologie ODK
--   Systéme de collecte de données numériques
--   Toute enquête **quantitative** et qualitative
--   Gratuit, facile à utiliser et Open Source
--   Capacité de stockage
--   Multi langues
--   Collecte on line / off line
--   Collecte par telephone, tablette ou ordinateurs
--   De nombreux types de questions
--   Collaboratif
--   Gestion des données en temps réel
+[Au dela de la réalisation d'enquêtes classiques, les fonctionnalités de KoBo permettent son utilisation, individuelle ou collective, à des fins très variées...]{.bigbis .bold}
+:::
 
-## Kobotoolbox & la RGPD ?
+::: {.column width="5%"}
+:::
 
-Les serveurs mis à disposition :
+::: {.column width="30%"}
+![](images/utilisation-main.jpg){width="55%"}
+:::
+:::
 
--   Hébergement avec Amazon Web Services (AWS) ou Microsoft Azure
+## Pourquoi utiliser KoBo ? {.smaller}
 
--   Emplacement du serveur aux États-Unis ou dans l'Union européenne, avec une infrastructure qui évolue en fonction de l'utilisation
+::: columns
+\
 
-Mais :
+::: {.column width="60%"}
+-   Technologie [**ODK**](https://getodk.org/)
+-   Systéme de **collecte de données numériques**
+-   Collecte par **telephone**, **tablette** ou **ordinateurs**
+-   Collecte de données **quantitatives** & **qualitatives**
+-   **Facile d'utilisation**
+-   **Gratuit** & **Open Source**
+-   **Multi-langues** (14)
+-   Forte **capacité de stockage** (⚠ limite)
+-   **Collecte online** & **offline**
+-   De **nombreux types de questions** disponibles
+-   Permet la **collecte collaborative à grande échelle**
+-   **Gestion & exploration des données en temps réel**
+:::
 
--   Création de marque personnalisée pour l'URL (par exemple, kobo.yourorganization.org), le logo,
+::: {.column width="40%"}
+\
+\
+\
 
--   ![](images/Capture%20d’écran%202023-09-07%20à%2011.24.25.jpg)
+![](images/device.png)
+:::
+:::
 
--   Configurations de sécurité améliorées
+## KoboToolbox & KoboCollect {.smaller}
 
-liste d'exemple de serveur kobo :
+\
 
-etc: CIRAD, Université Limoges, UNCHR, Aix Marseille
+**KoBo se compose :**
 
-## Cas d'usages variés
+-   d'une **plateforme en ligne** : [**KoboToolbox**](https://kf.KoBotoolBox.org/)\
+-   d'une **application de collecte** de données : [**KoboCollect**](https://play.google.com/store/apps/details?id=org.koboc.collect.android&hl=fr&gl=US)
 
--   Recensement de population
--   Enquête quantitative
--   Enquête qualitative
--   Inventaire & collection
--   Sondage en ligne
--   Carnet de terrain - Observations
--   Cahier de laboratoire
--   Relevé instrumental
+![](images/Kobocollect.jpg)
+
+## Respect de la RGPD ? {.smaller}
+
+::: center
+![](images/rgpd.jpeg){width="50%"}
+:::
+
+**Bien que [KoboToolbox soit présenté comme un outil en parfaite conformité avec la RGDP européenne](https://support.kobotoolbox.org/gdpr.html), vous n'avez pas le contrôle ni la proprièté totale des données si vous utiliser l'instance KoboToolbox mise à disposition...**
+
+Les données collectées et envoyées sur [la plateforme KobotToolBox mise à disposition](https://kf.KoBotoolBox.org/) sont hébergés :
+
+-   avec **Amazon Web Services (AWS)** ou **Microsoft Azure**
+-   sur des **serveurs localisés aux États-Unis ou dans l'Union européenne**
+
+**⚠ La transparence sur le stockage des données collectées n'est pas complète, notamment car l'infrastructure évolue en fonction de l'utilisation.**
+
+## Respect de la RGPD ? {.smaller}
+
+**KoboToolbox est un outil Open source. Pour s'assurer d'avoir la maîtrise totale de vos données, il est possible d'installer son instance KoboToolbox sur son propre serveur.** Cela permet d'avoir d'avoir son instance personnalisée avec des configurations de sécurité améliorées.
+
+Bien que la mise en place et la maintenance nécessite des compétences en informatique. Plusieurs institutions et organsimes ont fait ce choix. Quelques exemples :
+
+::: columns
+::: {.column width="60%"}
+\
+
+-   UNCHR : <https://kobo.unhcr.org>
+-   CIRAD : <https://kf.cirad.fr>
+-   Université de Limoges : <https://kobo.unilim.fr>
+-   Université Aix-Marseille ?
+-   ... autres exemple ???
+:::
+
+::: {.column width="10%"}
+:::
+
+::: {.column width="20%"}
+![](images/UNCHR.png){width="90%"}
+:::
+
+::: {.column width="10%"}
+:::
+:::
+
+# Cas d'usage
+
+## Diverse formes d'utilisation possibles {.smaller}
+
+\
+
+::: columns
+::: {.column width="59%"}
+::: bigbiz
+-   **Recensement** de population
+-   **Enquête** quantitative et/ou qualitative
+-   **Inventaire** & collection
+-   **Sondage** en ligne
+-   **Carnet de terrain** / Observations
+-   **Cahier** de laboratoire
+-   **Relevés** de terrain
+-   **Relevés** instrumental
+:::
+:::
+
+::: {.column width="41%"}
+\
+\
+\
+\
+\
+
+![](images/photo.jpg)
+:::
+:::
 
 ## Quelques exemples personnels
 
--   Plateforme de suivi des réalisations du projet PRAPS
+::: panel-tabset
+## Exemple 1
 
--   [Cartographie digitale des ONG et Associations - Santé](https://ee.kobotoolbox.org/x/zeymfpyg)
+**Plateforme de suivi des réalisations du projet PRAPS**
 
--   [Cartographie des projets et programmes du secteur rural en Guinée](https://ee.kobotoolbox.org/x/8n6LAaXy)
+## Exemple 2
 
--   [Conflits fonciers(SEEN SUUF)](https://ee.kobotoolbox.org/x/DQ9Jje0M)
+[**Cartographie digitale des ONG et Associations - Santé**](https://ee.KoBotoolBox.org/x/zeymfpyg)
 
--   [Cartographie des structures de formation professionnelle et technique du Sénégal](https://ee.kobotoolbox.org/x/GlZTfTgW)
+## Exemple 3
 
-![](i&mages/FPT.png)
+[**Cartographie des projets et programmes du secteur rural en Guinée**](https://ee.KoBotoolBox.org/x/8n6LAaXy)
+
+## Exemple 4
+
+[**Conflits fonciers (SEEN SUUF)**](https://ee.KoBotoolBox.org/x/DQ9Jje0M)
+
+## Exemple 5
+
+[**Cartographie des structures de formations professionnelles et techniques du Sénégal**](https://ee.KoBotoolBox.org/x/GlZTfTgW)
+
+![](images/FPT.png)
+:::
 
 ## Autres exemples d'utilisation
 
@@ -121,24 +241,28 @@ etc: CIRAD, Université Limoges, UNCHR, Aix Marseille
 
 # Prise en main
 
-## 2 outils pour une enquête
+## Deux outils pour une enquête
 
-**Plateforme web**\
+\
+
+**Plateforme web (Kobotoolbox)**\
 - Création, modification et déploiement des formulaires\
 - Suivi et contrôle de la collecte, gestion des droits\
 - Stockage, Vérification, modification des données collectées\
 - Exploration et visualisation des données\
 - Export des données (Excel, JSON, KML...)
 
-**Application de collecte (Kobocollect, Enketo, GIC collect, page web)**\
+\
+
+**Application de collecte (KoboCollect, Enketo, GIC collect, page web)**\
 - Téléchargement des formulaires d'enquêtes\
 - Saisie des données via telephone, tablette ou ordinateur\
 - Sauvergarde des réponses saisie sur l'appareil\
-- Envoi maitrisé des réponses sur le serveur Kobotoolbox (plateforme)
+- Envoi maitrisé des réponses sur le serveur KoBotoolBox (plateforme)
 
 ## Création de compte (1)
 
-Pour utiliser KobotoolBox, il faut d'abord ouvrir un compte en visitant le site web : http://www.kobotoolbox.org et suivre les instructions comme indiquées sur les images suivantes.
+Pour utiliser KoBotoolBox, il faut d'abord ouvrir un compte en visitant le site web : http://www.KoBotoolBox.org et suivre les instructions comme indiquées sur les images suivantes.
 
 Cliquer sur **Create an account**
 
@@ -174,7 +298,7 @@ Une fois les paramétres renseignés, cliquez sur le signe + pour saisir votre p
 
 ## Types de questions
 
-[Types de questions](https://support.kobotoolbox.org/question_types.html) ![](images/questions.jpg)
+[Types de questions](https://support.KoBotoolBox.org/question_types.html) ![](images/questions.jpg)
 
 ## 4.2- Création du questionnaire via XLS form
 
@@ -200,10 +324,18 @@ Formats et fonctionnement ID média
 
 Point forts :
 
-Limites (mais) : - Plus grande puissance en quanti - Nombre de soumissions - Attention au respect de la RGPD - Pas adapté à toute enquête(longitudinales , ...)
+Limites (mais) : 
+
+- Plus grande puissance en quanti 
+
+- Nombre de soumissions 
+
+- Attention au respect de la RGPD 
+
+- Pas adapté à toute enquête(longitudinales , ...)
 
 ## Ressources utiles
 
--   <https://www.kobotoolbox.org>
+-   <https://www.KoBotoolBox.org>
 -   <https://docs.google.com/presentation/d/1vJMWBBcMNlnQP1dUa7WsTuA4mSwifgEnj-TtjGwmcuY/htmlpresent>
--   <https://cartong.pages.gitlab.cartong.org/learning-corner/fr/8_managing_mdc/8_2_tool_focus/8_2_4_correction> -[Communauté](https://community.kobotoolbox.org) -[Support](https://support.kobotoolbox.org)
+-   <https://cartong.pages.gitlab.cartong.org/learning-corner/fr/8_managing_mdc/8_2_tool_focus/8_2_4_correction> -[Communauté](https://community.KoBotoolBox.org) -[Support](https://support.KoBotoolBox.org)

@@ -21,15 +21,11 @@
   font-style: italic;
 }
 
-
-
 .author { 
   font-size: 80%;
   color: #d8d9d8;
   font-weight: bold;
 }
-
-
 
 .affiliations{
   font-size: 23px;
@@ -57,10 +53,16 @@
   font-weight:bold; 
 }
 
+
 .big2{
   font-size: 75%;
 }
 
+
+.biglist{
+  padding-left:40px;
+  font-size: 60%;
+}
 
 .big22{
   font-size: 75%;
@@ -73,6 +75,10 @@
 
 .bigbis{
   font-size: 120%;
+}
+
+.bigbiz{
+  font-size: 140%;
 }
 
 .bigbis2{
@@ -132,8 +138,8 @@
 
 
 
-.orange{
-  color: #f7a41f;
+.blue{
+  color: #42affa;
 }
 
 .txt4{
