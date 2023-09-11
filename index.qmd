@@ -59,21 +59,24 @@ editor: visual
 
 ## Objectifs initiaux {.smaller}
 
-**Kobo est une organisation internationale à but non lucratif. Il héberge et maintient KoboToolbox, l'outil de collecte de données le plus populaire au monde dans des contextes difficiles. KoboToolbox est utilisé par plus de 14 000 organisations à travers le monde.KoboToolbox a été fondée en 2005 par Phuong Pham et Patrick Vinck, aujourd'hui professeurs à l'université Harvard T.H. École Chan de santé publique**
+**KoBo est une organisation internationale à but non lucratif. Elle héberge et maintient KoboToolbox, un outil de collecte de données adapté aux contextes difficiles. KoboToolbox est extrêment populaire, cet outil est utilisé par plus de 14 000 organisations à travers le monde. KoboToolbox a été fondée en 2005 par Phuong Pham et Patrick Vinck, aujourd'hui professeurs à l'Université Harvard T.H. École Chan de santé publique.**
 
 Il est développé par la ***Harvard Humanitarian Initiative*** pour une utilisation facile et fiable dans des contextes de terrain difficiles, tels que les urgences humanitaires ou les environnements post-conflit.
 
-![](images/partenaires.jpg)
+
+::: {.center}
+![](images/partenaires.jpg){width=65%}
+:::
 
 ## Public cible {.smaller}
 
 \
 
--   **Organisations à but non lucratif**( projets de développement, d'aide humanitaire, de suivi des programmes et de recherche)
+-   **Organisations à but non lucratif** (projets de développement, d'aide humanitaire, de suivi des programmes et de recherche)
 
--   **Agences gouvernementales**(données dans des domaines tels que la santé publique, l'éducation, l'agriculture, la planification urbaine)
+-   **Agences gouvernementales** (données dans des domaines tels que la santé publique, l'éducation, l'agriculture, la planification urbaine)
 
--   **Institutions de recherche**(chercheur·es et ingénieur·es de différentes disciplines (sociologie, géographie, archéologie, géomatique, démographie, biologie,statistiques,histoire, écologogie, droit, urbaninsme,anthropologie, ect.)
+-   **Institutions de recherche** (chercheur·es et ingénieur·es de différentes disciplines (sociologie, géographie, archéologie, géomatique, démographie, biologie, statistiques, histoire, écologogie, droit, urbaninsme, anthropologie, ect.)
 
  
 
@@ -128,7 +131,7 @@ Il est développé par la ***Harvard Humanitarian Initiative*** pour une utilisa
 **KoBo se compose :**
 
 -   d'une **plateforme en ligne** : [**KoboToolbox**](https://kf.KoBotoolBox.org/)\
--   d'une **application de collecte** de données : [**KoboCollect**](https://play.google.com/store/apps/details?id=org.koboc.collect.android&hl=fr&gl=US)
+-   d'une **application de collecte** de données : [**KoboCollect**](https://play.google.com/store/apps/details?id=org.koboc.collect.android&hl=fr&gl=US) (ou [Enketo](https://enketo.org/) et [GIC Collect](https://apps.apple.com/kh/app/gic-collect/id1485932698?l=fr) pour Apple)
 
 ![](images/Kobocollect.jpg)
 
@@ -146,6 +149,12 @@ Les données collectées et envoyées sur [la plateforme KobotToolBox mise à di
 -   sur des **serveurs localisés aux États-Unis ou dans l'Union européenne**
 
 **⚠ La transparence sur le stockage des données collectées n'est pas complète, notamment car l'infrastructure évolue en fonction de l'utilisation.**
+
+::: {.center}
+
+![](images/server.jpg){width=70%}
+
+:::
 
 ## Respect de la RGPD ? {.smaller}
 
@@ -177,7 +186,7 @@ Bien que la mise en place et la maintenance nécessitent des compétences en inf
 
 # Cas d'usage
 
-## Diverse formes d'utilisation possibles {.smaller}
+## Diverses formes d'utilisation possibles {.smaller}
 
 \
 
@@ -206,13 +215,16 @@ Bien que la mise en place et la maintenance nécessitent des compétences en inf
 :::
 :::
 
-## Quelques exemples personnels
+## Exemples personnels appliqués
+
+Dans le domaine de la géographie et de la géomatique
 
 ::: panel-tabset
 ## Exemple 1
 
 **Plateforme de suivi des réalisations du projet PRAPS**
 ![](images/praps 2.jpg)
+
 ## Exemple 2
 
 [**Cartographie digitale des ONG et Associations - Santé**](https://ee.KoBotoolBox.org/x/zeymfpyg)
@@ -221,6 +233,7 @@ Bien que la mise en place et la maintenance nécessitent des compétences en inf
 
 [**Cartographie des projets et programmes du secteur rural en Guinée**](https://ee.KoBotoolBox.org/x/8n6LAaXy)
 ![](images/pasag.png)
+
 ## Exemple 4
 
 [**Conflits fonciers**](https://ee.KoBotoolBox.org/x/DQ9Jje0M)
@@ -230,14 +243,43 @@ Bien que la mise en place et la maintenance nécessitent des compétences en inf
 [**Cartographie des structures de formations professionnelles et techniques du Sénégal**](https://ee.KoBotoolBox.org/x/GlZTfTgW)
 
 ![](images/FPT.png)
+
+
+## Exemple 6
+
+```{=html}
+<iframe width="990" height="580" src="https://www.warwi.org/organisations/" title="Warwi"></iframe>
+```
+
+![](images/warwi.png)
+
+## Exemple 7
+
+```{=html}
+<iframe width="990" height="580" src="https://andysouth.shinyapps.io/senegal_healthsites_collection" title="Healthsites"></iframe>
+```
+
+
 :::
 
 ## Autres exemples d'utilisation
 
--   Enquête nationnale (Sénégal, Burkina Faso, Mali...)
--   Nations-Unies (CHR)
--   Sondage en ligne
--   Relevé de terrain perso (Kévin poisson)
+
+
+::: bigbis
+-   **Enquête nationnale** (Sénégal, Burkina Faso, Mali...)
+-   **Enquête internationnale** (agence des Nations Unies pour les réfugiés)
+
+::: {.center}
+![](images/exemple_collect.jpg){width=50%}
+:::
+
+
+-   **Sondage** en ligne (toute thématique)
+-   **Relevés et notes** personnels de terrain 
+:::
+
+
 
 # Prise en main
 
@@ -245,103 +287,211 @@ Bien que la mise en place et la maintenance nécessitent des compétences en inf
 
 \
 
+::: columns
+::: {.column width="55%"}
+
+::: bigbis
 **Plateforme web (Kobotoolbox)**\
+:::
+
+::: big5
 - Création, modification et déploiement des formulaires\
 - Suivi et contrôle de la collecte, gestion des droits\
 - Stockage, Vérification, modification des données collectées\
 - Exploration et visualisation des données\
 - Export des données (Excel, JSON, KML...)
+:::
+:::
 
+::: {.column width="45%"}
 \
 
+::: {.center}
+![](images/KoboTools.jpg){width=80%}
+:::
+:::
+:::
+
+
+::: bigbis
 **Application de collecte (KoboCollect, Enketo, GIC collect, page web)**\
+:::
+
+::: big5
 - Téléchargement des formulaires d'enquêtes\
 - Saisie des données via telephone, tablette ou ordinateur\
-- Sauvergarde des réponses saisie sur l'appareil\
-- Envoi maitrisé des réponses sur le serveur KoBotoolBox (plateforme)
+- Sauvergarde des réponses saisies sur l'appareil\
+- Envoi maitrisé des réponses sur le serveur KoBotoolBox
+:::
 
-## Création de compte (1)
 
-Pour utiliser KoBotoolBox, il faut d'abord ouvrir un compte en visitant le site web : http://www.KoBotoolBox.org et suivre les instructions comme indiquées sur les images suivantes.
+## 1. Création de compte Kobotoolbox
 
-Cliquer sur **Create an account**
+Pour utiliser KoBotoolBox, commencez par **créer un compte : [http://www.KoBotoolBox.org](http://www.KoBotoolBox.org)**
+
+Cliquez sur ***Create an account***.
 
 ![](images/create.jpg)
 
-## Création de compte (2)
+## 1. Création de compte
 
-Remplir ensuite les champs.
+**Renseignez les informations** demandées :
 
 ![](images/champs.jpg)
 
-## Création de compte (3)
+## 1. Création de compte
 
-Activation du compte
-
-Une fois que cette étape effectuée, vous recevrez un mail pour activer votre compte.
+Vous recevrez un email qui vous permettra d'**activer votre compte**. 
 
 ![](images/activate.jpg)
 
-# Démonstration
 
-## 1. Création du formulaire
+## 2. Création du formulaire
 
-Cliquer sur New pour créer le questionnaire
+\
+
+::: {.bigbis}
+**Depuis votre compte KoboToolbox :**
+:::
+
+\
+
+::: columns
+::: {.column width="50%"}
+
+A. Cliquez sur ***NEW*** pour créer un questionnaire
 
 ![](images/2a.jpg){width="498"}
 
-Renseigner les informations sur le questionnaire ![](images/3a.jpg){width="465"}
+:::
 
-## 2. Saisie des questions
 
-Une fois les paramétres renseignés, cliquez sur le signe + pour saisir votre première question ![](images/5a.jpg) Définir le type de question ![](images/7a.jpg)
+::: {.column width="50%"}
 
-## Types de questions
+B. Renseignez les informations générales 
 
-[Types de questions](https://support.KoBotoolBox.org/question_types.html) ![](images/questions.jpg)
+![](images/3a.jpg){width="465"}
 
-## 4.2- Création du questionnaire via XLS form
+:::
 
-## 5- Deploiement des formulaires
+:::
 
-Une foisle questionaire saisi et validé, il doit être déployé pour activer la phase de collecte. Un lien sera automatiquement créé.
 
-![](images/deploy.jpg) ![](images/link.jpg) Possibiliter de télécharger le questionnaire dans l'application kobo collect ou enketo
 
-## 6 - Administration de la collecte
+## 3. Ajout d'une question
+
+**Cliquez sur le signe + pour ajouter votre première question :** 
+
+![](images/5a.jpg) 
+
+**Définissez le type de question souhaité :**
+
+![](images/7a.jpg)
+
+## 3. Ajout d'une question
+
+**De nombreux [types de question](https://support.KoBotoolBox.org/question_types.html) disponibles :**
+
+![](images/questions.jpg)
+
+## 4. Création du questionnaire via XLS form
+
+```{=html}
+<iframe width="990" height="580" src="https://docs.google.com/spreadsheets/d/1JYH0ca-piUKepoq-DXjVl5qLTUVM18ZY/edit#gid=716438668" title="xlsform"></iframe>
+```
+
+
+## 5. Deploiement du formulaire (page web)
+
+Une fois le questionaire saisi et validé, **il doit être déployé pour activer la phase de collecte**.    
+Un lien sera automatiquement créé.
+
+![](images/deploy.jpg) ![](images/link.jpg) 
+
+## 6. Deploiement sur smartphone
+
+Possibiliter de télécharger le questionnaire dans l'application koboCollect, Enketo ou GIC collect.
+
+## 7. Administration de la collecte
 
 -   Contôle des données collectées
 -   Multi administrateurs
 -   Supervision des collecteurs
 
-## 7 - Exploration des données colléctés
+screen shot
 
-## 8 - Export des données
+
+## 8. Exploration des données collectées
+
+screen shot
+
+## 9. Export des données
 
 Formats et fonctionnement ID média
 
 ## Conclusion
 
-Point forts :
+\
 
-Limites (mais) : 
 
-- Plus grande puissance en quanti qu'en quanti 
+::: bigbis
+**Limites :** 
+:::
 
-- Nombre de soumissions 
+::: big5
+- **Plus orienté enquête quantitative** que qualitative  
+- Pas adapté à tout type d'enquête   
+- **Nombre de soumissions limitées** (5000/mois max)    
+- Respect de la RGPD mais **pas de contrôle totale des données**    
+:::
 
-- Attention au respect de la RGPD 
+\
 
-- Pas adapté à toute enquête(longitudinales , ...)
+::: bigbis
+**Point forts :**
+:::
+
+::: big5
+- **Gratuit** et **Open Source**
+- **Eventail très large des fonctionnalités**
+- Optimisé pour la **collecte collaborative à grande échelle**
+- Possibilité d'**installer sa propre instance**
+:::
 
 ## Ressources utiles
 
 -   <https://www.KoBotoolBox.org>
 -   <https://docs.google.com/presentation/d/1vJMWBBcMNlnQP1dUa7WsTuA4mSwifgEnj-TtjGwmcuY/htmlpresent>
--   <https://cartong.pages.gitlab.cartong.org/learning-corner/fr/8_managing_mdc/8_2_tool_focus/8_2_4_correction> -[Communauté](https://community.KoBotoolBox.org) -[Support](https://support.KoBotoolBox.org)
+-   <https://cartong.pages.gitlab.cartong.org/learning-corner/fr/8_managing_mdc/8_2_tool_focus/8_2_4_correction> -[Communauté](https://community.KoBotoolBox.org) -[Support](https://support.KoBotoolBox.org)  
+- [https://support.kobotoolbox.org/](https://support.kobotoolbox.org/)    
+- [https://community.kobotoolbox.org/](https://community.kobotoolbox.org/)   
 
 ## Remerciements
-- Hugues Pecout, Ingénieur d’études en sciences de l’information géographique, CNRS
--PRODIG
--GEOTECA
--TUTO MATES
+
+::: columns
+::: {.column width="50%"}
+
+![](images/geoteca.png)
+:::
+
+::: {.column width="50%"}
+![](images/logo_PRODIG.png)
+:::
+
+::: {.column width="50%"}
+
+![](images/USSEIN-LOGO-entete-site.png){width=60%}
+:::
+
+::: {.column width="50%"}
+
+![](images/cnrs.png){width=30%}
+
+
+Hugues Pecout, Ingénieur d’études en sciences de l’information géographique (CNRS, Géographie-Cités)
+
+:::
+
+
+:::
+
