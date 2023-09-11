@@ -59,7 +59,7 @@ editor: visual
 
 ## Objectifs initiaux {.smaller}
 
-**KoBotoolBox a été conçu pour les professionnels des droits de l'homme et de l'aide humanitaire, mais peut être utilisé pour répondre à tous vos besoins de recherche.**
+**Kobo est une organisation internationale à but non lucratif. Il héberge et maintient KoboToolbox, l'outil de collecte de données le plus populaire au monde dans des contextes difficiles. KoboToolbox est utilisé par plus de 14 000 organisations à travers le monde.KoboToolbox a été fondée en 2005 par Phuong Pham et Patrick Vinck, aujourd'hui professeurs à l'université Harvard T.H. École Chan de santé publique**
 
 Il est développé par la ***Harvard Humanitarian Initiative*** pour une utilisation facile et fiable dans des contextes de terrain difficiles, tels que les urgences humanitaires ou les environnements post-conflit.
 
@@ -81,7 +81,7 @@ Il est développé par la ***Harvard Humanitarian Initiative*** pour une utilisa
 ::: {.column width="65%"}
 \
 
-[Au dela de la réalisation d'enquêtes classiques, les fonctionnalités de KoBo permettent son utilisation, individuelle ou collective, à des fins très variées...]{.bigbis .bold}
+[Au dela de la réalisation d'enquêtes classiques, les fonctionnalités de KoBo permettent son utilisation individuelle ou collective, à des fins très variées...]{.bigbis .bold}
 :::
 
 ::: {.column width="5%"}
@@ -138,7 +138,7 @@ Il est développé par la ***Harvard Humanitarian Initiative*** pour une utilisa
 ![](images/rgpd.jpeg){width="50%"}
 :::
 
-**Bien que [KoboToolbox soit présenté comme un outil en parfaite conformité avec la RGDP européenne](https://support.kobotoolbox.org/gdpr.html), vous n'avez pas le contrôle ni la proprièté totale des données si vous utiliser l'instance KoboToolbox mise à disposition...**
+**Bien que [KoboToolbox soit présenté comme un outil en parfaite conformité avec la RGDP européenne](https://support.kobotoolbox.org/gdpr.html), vous n'avez pas le contrôle ni la proprièté totale des données si vous utilisez l'instance KoboToolbox mise à disposition...**
 
 Les données collectées et envoyées sur [la plateforme KobotToolBox mise à disposition](https://kf.KoBotoolBox.org/) sont hébergés :
 
@@ -149,9 +149,9 @@ Les données collectées et envoyées sur [la plateforme KobotToolBox mise à di
 
 ## Respect de la RGPD ? {.smaller}
 
-**KoboToolbox est un outil Open source. Pour s'assurer d'avoir la maîtrise totale de vos données, il est possible d'installer son instance KoboToolbox sur son propre serveur.** Cela permet d'avoir d'avoir son instance personnalisée avec des configurations de sécurité améliorées.
+**KoboToolbox est un outil Open source. Pour s'assurer d'avoir la maîtrise totale de vos données, il est possible d'installer son instance KoboToolbox sur son propre serveur.** Cela permet d'avoir  son instance personnalisée avec des configurations de sécurité améliorées.
 
-Bien que la mise en place et la maintenance nécessite des compétences en informatique. Plusieurs institutions et organsimes ont fait ce choix. Quelques exemples :
+Bien que la mise en place et la maintenance nécessitent des compétences en informatique. Plusieurs institutions et organsimes ont fait ce choix. Quelques exemples :
 
 ::: columns
 ::: {.column width="60%"}
@@ -191,7 +191,7 @@ Bien que la mise en place et la maintenance nécessite des compétences en infor
 -   **Carnet de terrain** / Observations
 -   **Cahier** de laboratoire
 -   **Relevés** de terrain
--   **Relevés** instrumental
+-   **Relevé** instrumental
 :::
 :::
 
@@ -212,7 +212,7 @@ Bien que la mise en place et la maintenance nécessite des compétences en infor
 ## Exemple 1
 
 **Plateforme de suivi des réalisations du projet PRAPS**
-
+![](images/praps 2.jpg)
 ## Exemple 2
 
 [**Cartographie digitale des ONG et Associations - Santé**](https://ee.KoBotoolBox.org/x/zeymfpyg)
@@ -220,10 +220,10 @@ Bien que la mise en place et la maintenance nécessite des compétences en infor
 ## Exemple 3
 
 [**Cartographie des projets et programmes du secteur rural en Guinée**](https://ee.KoBotoolBox.org/x/8n6LAaXy)
-
+![](images/pasag.png)
 ## Exemple 4
 
-[**Conflits fonciers (SEEN SUUF)**](https://ee.KoBotoolBox.org/x/DQ9Jje0M)
+[**Conflits fonciers**](https://ee.KoBotoolBox.org/x/DQ9Jje0M)
 
 ## Exemple 5
 
@@ -326,7 +326,7 @@ Point forts :
 
 Limites (mais) : 
 
-- Plus grande puissance en quanti 
+- Plus grande puissance en quanti qu'en quanti 
 
 - Nombre de soumissions 
 
@@ -339,3 +339,9 @@ Limites (mais) :
 -   <https://www.KoBotoolBox.org>
 -   <https://docs.google.com/presentation/d/1vJMWBBcMNlnQP1dUa7WsTuA4mSwifgEnj-TtjGwmcuY/htmlpresent>
 -   <https://cartong.pages.gitlab.cartong.org/learning-corner/fr/8_managing_mdc/8_2_tool_focus/8_2_4_correction> -[Communauté](https://community.KoBotoolBox.org) -[Support](https://support.KoBotoolBox.org)
+
+## Remerciements
+- Hugues Pecout, Ingénieur d’études en sciences de l’information géographique, CNRS
+-PRODIG
+-GEOTECA
+-TUTO MATES
