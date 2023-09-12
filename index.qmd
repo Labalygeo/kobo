@@ -2,7 +2,7 @@
 title: "Un outil libre de collecte de données pour les Sciences Humaines et Sociales"
 author: "Labaly TOURE"
 institute: "Université du Sine Saloum El-hâdj ibrahima NIASS, Sénégal"
-affiliation: <img src="images/logo_PRODIG.png" width="70" style="margin-right:400px;"/><img src="images/USSEIN-LOGO-entete-site.png" width="90" style="margin-right:400px;"/><img src="images/cnrs.png" width="50" />
+affiliation: <img src="images/logo_PRODIG.png" width="70" style="margin-right:400px;"/><img src="images/USSEIN-LOGO-entete-site.png" width="90" style="margin-right:400px;"/><img src="images/cist-logo-bleu_sur_blanc.png" width="55" />
 img: images/kobo.png
 lang: fr
 format:
@@ -61,7 +61,7 @@ editor: visual
 
 **KoBo est une organisation internationale à but non lucratif. Elle héberge et maintient KoboToolbox, un outil de collecte de données adapté aux contextes difficiles. KoboToolbox est extrêment populaire, cet outil est utilisé par plus de 14 000 organisations à travers le monde. KoboToolbox a été fondée en 2005 par Phuong Pham et Patrick Vinck, aujourd'hui professeurs à l'Université Harvard T.H. École Chan de santé publique.**
 
-Il est développé par la ***Harvard Humanitarian Initiative*** pour une utilisation facile et fiable dans des contextes de terrain difficiles, tels que les urgences humanitaires ou les environnements post-conflit.
+Il est développé par la ***Harvard Humantarian Initiative*** pour une utilisation facile et fiable dans des contextes de terrain difficiles, tels que les urgences humanitaires ou les environnements post-conflit.
 
 
 ::: {.center}
@@ -101,14 +101,14 @@ Il est développé par la ***Harvard Humanitarian Initiative*** pour une utilisa
 \
 
 ::: {.column width="60%"}
--   Technologie [**ODK**](https://getodk.org/)
+-   Technologie [**ODK**](https://getodk.org/){target="_blank"}
 -   Systéme de **collecte de données numériques**
 -   Collecte par **telephone**, **tablette** ou **ordinateurs**
 -   Collecte de données **quantitatives** & **qualitatives**
 -   **Facile d'utilisation**
 -   **Gratuit** & **Open Source**
 -   **Multi-langues** (14)
--   Forte **capacité de stockage** (⚠ limite)
+-   Forte **capacité de stockage**
 -   **Collecte online** & **offline**
 -   De **nombreux types de questions** disponibles
 -   Permet la **collecte collaborative à grande échelle**
@@ -130,8 +130,8 @@ Il est développé par la ***Harvard Humanitarian Initiative*** pour une utilisa
 
 **KoBo se compose :**
 
--   d'une **plateforme en ligne** : [**KoboToolbox**](https://kf.KoBotoolBox.org/)\
--   d'une **application de collecte** de données : [**KoboCollect**](https://play.google.com/store/apps/details?id=org.koboc.collect.android&hl=fr&gl=US) (ou [Enketo](https://enketo.org/) et [GIC Collect](https://apps.apple.com/kh/app/gic-collect/id1485932698?l=fr) pour Apple)
+-   d'une **plateforme en ligne** : [**KoboToolbox**](https://kf.KoBotoolBox.org/){target="_blank"}\
+-   d'une **application de collecte** de données : [**KoboCollect**](https://play.google.com/store/apps/details?id=org.koboc.collect.android&hl=fr&gl=US){target="_blank"} (ou [Enketo](https://enketo.org/){target="_blank"} et [GIC Collect](https://apps.apple.com/kh/app/gic-collect/id1485932698?l=fr){target="_blank"} pour Apple)
 
 ![](images/Kobocollect.jpg)
 
@@ -141,9 +141,9 @@ Il est développé par la ***Harvard Humanitarian Initiative*** pour une utilisa
 ![](images/rgpd.jpeg){width="50%"}
 :::
 
-**Bien que [KoboToolbox soit présenté comme un outil en parfaite conformité avec la RGDP européenne](https://support.kobotoolbox.org/gdpr.html), vous n'avez pas le contrôle ni la proprièté totale des données si vous utilisez l'instance KoboToolbox mise à disposition...**
+**Bien que [KoboToolbox soit présenté comme un outil en parfaite conformité avec la RGDP européenne](https://support.kobotoolbox.org/gdpr.html){target="_blank"}, vous n'avez pas le contrôle ni la proprièté totale des données si vous utilisez l'instance KoboToolbox mise à disposition...**
 
-Les données collectées et envoyées sur [la plateforme KobotToolBox mise à disposition](https://kf.KoBotoolBox.org/) sont hébergés :
+Les données collectées et envoyées sur [la plateforme KobotToolBox mise à disposition](https://kf.KoBotoolBox.org/){target="_blank"} sont hébergés :
 
 -   avec **Amazon Web Services (AWS)** ou **Microsoft Azure**
 -   sur des **serveurs localisés aux États-Unis ou dans l'Union européenne**
@@ -164,23 +164,25 @@ Bien que la mise en place et la maintenance nécessitent des compétences en inf
 
 ::: columns
 ::: {.column width="60%"}
-\
+
+
 
 -   UNCHR : <https://kobo.unhcr.org>
 -   CIRAD : <https://kf.cirad.fr>
 -   Université de Limoges : <https://kobo.unilim.fr>
--   Université Aix-Marseille ?
--   ... autres exemple ???
+
+![](images/cirad.png){width="50%"}
+
 :::
 
-::: {.column width="10%"}
+::: {.column width="5%"}
 :::
 
-::: {.column width="20%"}
+::: {.column width="28%"}
 ![](images/UNCHR.png){width="90%"}
 :::
 
-::: {.column width="10%"}
+::: {.column width="2%"}
 :::
 :::
 
@@ -220,46 +222,76 @@ Bien que la mise en place et la maintenance nécessitent des compétences en inf
 Dans le domaine de la géographie et de la géomatique
 
 ::: panel-tabset
-## Exemple 1
+## Elevage
 
 **Plateforme de suivi des réalisations du projet PRAPS**
+
 ![](images/praps 2.jpg)
 
-## Exemple 2
+## Internet
 
-[**Cartographie digitale des ONG et Associations - Santé**](https://ee.KoBotoolBox.org/x/zeymfpyg)
+**Connectivité des étudiants**. 
 
-## Exemple 3
+![](images/praps 2.jpg)
 
-[**Cartographie des projets et programmes du secteur rural en Guinée**](https://ee.KoBotoolBox.org/x/8n6LAaXy)
+::: {.center}
+Voir le [formulaire](https://ee.kobotoolbox.org/x/GKiHvleT){target="_blank"}
+:::
+
+## Espaces ruraux
+
+**Cartographie des projets et programmes du secteur rural en Guinée**
+
 ![](images/pasag.png)
 
-## Exemple 4
+::: {.center}
+Voir le [formulaire](https://ee.KoBotoolBox.org/x/8n6LAaXy){target="_blank"}
+:::
 
-[**Conflits fonciers**](https://ee.KoBotoolBox.org/x/DQ9Jje0M)
+## Foncier
 
-## Exemple 5
+**Conflits fonciers**
 
-[**Cartographie des structures de formations professionnelles et techniques du Sénégal**](https://ee.KoBotoolBox.org/x/GlZTfTgW)
+![](images/conflits fonciers.jpg)
+
+::: {.center}
+Voir le [formulaire](https://ee.KoBotoolBox.org/x/DQ9Jje0M){target="_blank"}
+:::
+
+
+
+## Formation (I)
+
+**Cartographie des structures de formations professionnelles et techniques du Sénégal**
 
 ![](images/FPT.png)
 
+::: {.center}
+Voir le [formulaire](https://ee.KoBotoolBox.org/x/GlZTfTgW){target="_blank"}
+:::
 
-## Exemple 6
 
-```{=html}
-<iframe width="990" height="580" src="https://www.warwi.org/organisations/" title="Warwi"></iframe>
-```
+## Formation (II)
+
+**Cartographie des structures de formation agricole et rurale.**
 
 ![](images/warwi.png)
 
-## Exemple 7
+
+::: {.center}
+Voir le [formulaire](https://ee.kobotoolbox.org/x/94cwK1ga){target="_blank"}
+:::
+
+## Santé
 
 ```{=html}
 <iframe width="990" height="580" src="https://andysouth.shinyapps.io/senegal_healthsites_collection" title="Healthsites"></iframe>
 ```
 
+:::
 
+::: {.center}
+[https://healthsites.io/map](https://healthsites.io/map)
 :::
 
 ## Autres exemples d'utilisation
@@ -327,7 +359,7 @@ Dans le domaine de la géographie et de la géomatique
 
 ## 1. Création de compte Kobotoolbox
 
-Pour utiliser KoBotoolBox, commencez par **créer un compte : [http://www.KoBotoolBox.org](http://www.KoBotoolBox.org)**
+Pour utiliser KoBotoolBox, commencez par **créer un compte : [http://www.KoBotoolBox.org](http://www.KoBotoolBox.org){target="_blank"}**
 
 Cliquez sur ***Create an account***.
 
@@ -390,9 +422,14 @@ B. Renseignez les informations générales
 
 ## 3. Ajout d'une question
 
-**De nombreux [types de question](https://support.KoBotoolBox.org/question_types.html) disponibles :**
+**De nombreux [types de question](https://support.KoBotoolBox.org/question_types.html){target="_blank"} disponibles :**
 
 ![](images/questions.jpg)
+
+
+::: {.center}
+Voir un [exemple de formulaire complet](https://enke.to/x/widgets){target="_blank"}
+:::
 
 ## 4. Création du questionnaire via XLS form
 
@@ -412,44 +449,68 @@ Un lien sera automatiquement créé.
 
 Possibiliter de télécharger le questionnaire dans l'application koboCollect, Enketo ou GIC collect.
 
-![](images/smartphone2.png)
+
+::: columns
+
+
+::: {.column width="50%"}
+:::{.center}
+![](images/smartphone2.png){width=60%}
+:::
+:::
+
+
+::: {.column width="50%"}
+:::{.center}
+![](images/smartphone.png)
+:::
+:::
+:::
+
+
 
 ## 7. Administration de la collecte
 
--   Contôle des données collectées
--   Multi administrateurs
--   Supervision des collecteurs
+-   **Multi-administrateurs**
+-   **Supervision des collecteurs**
+-   **Contrôle des données** collectées
+
+::: {.center}
 
 ![](images/admin.jpg)
+![](images/edit.jpg)
 
+:::
 
 ## 8. Exploration des données collectées
+
+Des **outils d'exploration et de visualisation** des données collectées.
 
 ![](images/viz.jpg)
 ![](images/graphique.jpg)
 
 ## 9. Export des données
+
+**Plusieurs formats d'export** disponibles.
+
 ![](images/format d'export.jpg)
 
 ## Conclusion
 
-\
 
 
-::: bigbis
+::: {.bigbis style="margin-top:35px;"}
 **Limites :** 
 :::
 
 ::: big5
 - **Plus orienté enquête quantitative** que qualitative  
-- Pas adapté à tout type d'enquête   
+- Pas adapté à tout les types d'enquête (ex : longitudinale)   
 - **Nombre de soumissions limitées** (5000/mois max)    
 - Respect de la RGPD mais **pas de contrôle totale des données**    
 :::
 
-\
-
-::: bigbis
+::: {.bigbis style="margin-top:35px;"}
 **Point forts :**
 :::
 
@@ -458,41 +519,93 @@ Possibiliter de télécharger le questionnaire dans l'application koboCollect, E
 - **Eventail très large des fonctionnalités**
 - Optimisé pour la **collecte collaborative à grande échelle**
 - Possibilité d'**installer sa propre instance**
-- Collecte rapide et de manière fiable des données sur Android, iOS et de nombreux autres appareils, en ligne ou hors ligne, avec une logique de renvoi complexe.
+- Collecte rapide et de manière fiable des données sur **Android**, **iOS** et de nombreux autres appareils, **en ligne ou hors ligne**, avec une logique de renvoi complexe.
 :::
 
 ## Ressources utiles
 
--   <https://www.KoBotoolBox.org>
--   <https://docs.google.com/presentation/d/1vJMWBBcMNlnQP1dUa7WsTuA4mSwifgEnj-TtjGwmcuY/htmlpresent>
--   <https://cartong.pages.gitlab.cartong.org/learning-corner/fr/8_managing_mdc/8_2_tool_focus/8_2_4_correction> -[Communauté](https://community.KoBotoolBox.org) -[Support](https://support.KoBotoolBox.org)  
-- [https://support.kobotoolbox.org/](https://support.kobotoolbox.org/)    
-- [https://community.kobotoolbox.org/](https://community.kobotoolbox.org/)   
+\
+
+
+::: {.txt6}  
+
+- [https://www.KoBotoolBox.org](https://www.KoBotoolBox.org){target="_blank"} 
+- [https://community.KoBotoolBox.org](https://community.KoBotoolBox.org){target="_blank"} 
+- [https://support.KoBotoolBox.org](https://support.KoBotoolBox.org){target="_blank"}  
+- [https://docs.google.com/presentation/d/1vJMWBBcMNlnQP1dUa7WsTuA4mSwifgEnj-TtjGwmcuY/htmlpresent](https://docs.google.com/presentation/d/1vJMWBBcMNlnQP1dUa7WsTuA4mSwifgEnj-TtjGwmcuY/htmlpresent){target="_blank"}
+- [https://cartong.pages.gitlab.cartong.org/learning-corner/fr/8_managing_mdc/8_2_tool_focus/8_2_4_correction](https://cartong.pages.gitlab.cartong.org/learning-corner/fr/8_managing_mdc/8_2_tool_focus/8_2_4_correction){target="_blank"} 
+
+::: 
 
 ## Remerciements
 
+\
+
 ::: columns
-::: {.column width="50%"}
-
-![](images/geoteca.png)
+::: {.column width="55%"}
+:::{.center}
+![](images/geoteca.png){width=55%}
+:::
 :::
 
-::: {.column width="50%"}
-![](images/logo_PRODIG.png)
+::: {.column width="45%"}
+:::{.center}
+
+
+
+::: columns   
+::: {.column width="5%"}
+:::
+::: {.column width="40%"}
+![](images/logo_PRODIG.png){width=100%}
+:::
+::: {.column width="5%"}
+:::
+::: {.column width="30%"}
+
+![](images/cist-logo-bleu_sur_blanc.png){width=100%}
+:::
+::: {.column width="20%"}
 :::
 
-::: {.column width="50%"}
-
-![](images/USSEIN-LOGO-entete-site.png){width=60%}
+:::
+:::
+:::
 :::
 
-::: {.column width="50%"}
+\
 
-![](images/cnrs.png){width=30%}
+::: columns   
+::: {.column width="55%"}
+:::{.center}
+![](images/USSEIN-LOGO-entete-site.png){width=35%}
+:::
+:::
+
+::: {.column width="45%"}
+:::{.center}
+
+\
+
+**Hugues Pecout**
+
+::: columns
+::: {.column width="20%"}
+:::
+::: {.column width="20%"}
+![](images/cnrs.png){width=90%}
+:::
+::: {.column width="10%"}
+:::
+::: {.column width="20%"}
+![](images/geographie-cites_logo.png){width=90%}
+:::
+::: {.column width="20%"}
+:::
+:::
 
 
-Hugues Pecout, Ingénieur d’études en sciences de l’information géographique (CNRS, Géographie-Cités)
-
+:::
 :::
 
 
