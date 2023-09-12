@@ -412,22 +412,24 @@ Un lien sera automatiquement créé.
 
 Possibiliter de télécharger le questionnaire dans l'application koboCollect, Enketo ou GIC collect.
 
+![](images/smartphone2.png)
+
 ## 7. Administration de la collecte
 
 -   Contôle des données collectées
 -   Multi administrateurs
 -   Supervision des collecteurs
 
-screen shot
+![](images/admin.jpg)
 
 
 ## 8. Exploration des données collectées
 
-screen shot
+![](images/viz.jpg)
+![](images/graphique.jpg)
 
 ## 9. Export des données
-
-Formats et fonctionnement ID média
+![](images/format d'export.jpg)
 
 ## Conclusion
 
@@ -456,6 +458,7 @@ Formats et fonctionnement ID média
 - **Eventail très large des fonctionnalités**
 - Optimisé pour la **collecte collaborative à grande échelle**
 - Possibilité d'**installer sa propre instance**
+- Collecte rapide et de manière fiable des données sur Android, iOS et de nombreux autres appareils, en ligne ou hors ligne, avec une logique de renvoi complexe.
 :::
 
 ## Ressources utiles
