@@ -63,9 +63,8 @@ editor: visual
 
 Il est développé par la ***Harvard Humantarian Initiative*** pour une utilisation facile et fiable dans des contextes de terrain difficiles, tels que les urgences humanitaires ou les environnements post-conflit.
 
-
-::: {.center}
-![](images/partenaires.jpg){width=65%}
+::: center
+![](images/partenaires.jpg){width="65%"}
 :::
 
 ## Public cible {.smaller}
@@ -150,29 +149,23 @@ Les données collectées et envoyées sur [la plateforme KobotToolBox mise à di
 
 **⚠ La transparence sur le stockage des données collectées n'est pas complète, notamment car l'infrastructure évolue en fonction de l'utilisation.**
 
-::: {.center}
-
-![](images/server.jpg){width=70%}
-
+::: center
+![](images/server.jpg){width="70%"}
 :::
 
 ## Instance privée {.smaller}
 
-**KoboToolbox est un outil Open source. Pour s'assurer d'avoir la maîtrise totale de vos données, il est possible d'installer son instance KoboToolbox sur son propre serveur.** Cela permet d'avoir  son instance personnalisée avec des configurations de sécurité améliorées.
+**KoboToolbox est un outil Open source. Pour s'assurer d'avoir la maîtrise totale de vos données, il est possible d'installer son instance KoboToolbox sur son propre serveur.** Cela permet d'avoir son instance personnalisée avec des configurations de sécurité améliorées.
 
 Bien que la mise en place et la maintenance nécessitent des compétences en informatique. Plusieurs institutions et organsimes ont fait ce choix. Quelques exemples :
 
 ::: columns
 ::: {.column width="60%"}
-
-
-
 -   UNCHR : <https://kobo.unhcr.org>
 -   CIRAD : <https://kf.cirad.fr>
 -   Université de Limoges : <https://kobo.unilim.fr>
 
 ![](images/cirad.png){width="50%"}
-
 :::
 
 ::: {.column width="5%"}
@@ -226,15 +219,15 @@ Dans le domaine de la géographie et de la géomatique
 
 **Plateforme de suivi des réalisations du projet PRAPS**
 
-![](images/praps 2.jpg)
+![](images/praps%202.jpg)
 
 ## Internet
 
-**Connectivité des étudiants**. 
+**Connectivité des étudiants**.
 
-![](images/praps 2.jpg)
+![](images/praps%202.jpg)
 
-::: {.center}
+::: center
 Voir le [formulaire](https://ee.kobotoolbox.org/x/GKiHvleT){target="_blank"}
 :::
 
@@ -244,7 +237,7 @@ Voir le [formulaire](https://ee.kobotoolbox.org/x/GKiHvleT){target="_blank"}
 
 ![](images/pasag.png)
 
-::: {.center}
+::: center
 Voir le [formulaire](https://ee.KoBotoolBox.org/x/8n6LAaXy){target="_blank"}
 :::
 
@@ -252,13 +245,11 @@ Voir le [formulaire](https://ee.KoBotoolBox.org/x/8n6LAaXy){target="_blank"}
 
 **Conflits fonciers**
 
-![](images/conflits fonciers.jpg)
+![](images/conflits%20fonciers.jpg)
 
-::: {.center}
+::: center
 Voir le [formulaire](https://ee.KoBotoolBox.org/x/DQ9Jje0M){target="_blank"}
 :::
-
-
 
 ## Formation (I)
 
@@ -266,10 +257,9 @@ Voir le [formulaire](https://ee.KoBotoolBox.org/x/DQ9Jje0M){target="_blank"}
 
 ![](images/FPT.png)
 
-::: {.center}
+::: center
 Voir le [formulaire](https://ee.KoBotoolBox.org/x/GlZTfTgW){target="_blank"}
 :::
-
 
 ## Formation (II)
 
@@ -277,8 +267,7 @@ Voir le [formulaire](https://ee.KoBotoolBox.org/x/GlZTfTgW){target="_blank"}
 
 ![](images/warwi.png)
 
-
-::: {.center}
+::: center
 Voir le [formulaire](https://ee.kobotoolbox.org/x/94cwK1ga){target="_blank"}
 :::
 
@@ -288,30 +277,24 @@ Voir le [formulaire](https://ee.kobotoolbox.org/x/94cwK1ga){target="_blank"}
 <iframe width="990" height="580" src="https://andysouth.shinyapps.io/senegal_healthsites_collection" title="Healthsites"></iframe>
 ```
 
-:::
-
-::: {.center}
+::: center
 [https://healthsites.io/map](https://healthsites.io/map)
+:::
 :::
 
 ## Autres exemples d'utilisation
-
-
 
 ::: bigbis
 -   **Enquête nationnale** (Sénégal, Burkina Faso, Mali...)
 -   **Enquête internationnale** (agence des Nations Unies pour les réfugiés)
 
-::: {.center}
-![](images/exemple_collect.jpg){width=50%}
+::: center
+![](images/exemple_collect.jpg){width="50%"}
 :::
-
 
 -   **Sondage** en ligne (toute thématique)
--   **Relevés et notes** personnels de terrain 
+-   **Relevés et notes** personnels de terrain
 :::
-
-
 
 # Prise en main
 
@@ -321,41 +304,38 @@ Voir le [formulaire](https://ee.kobotoolbox.org/x/94cwK1ga){target="_blank"}
 
 ::: columns
 ::: {.column width="55%"}
-
 ::: bigbis
 **Plateforme web (Kobotoolbox)**\
 :::
 
 ::: big5
-- Création, modification et déploiement des formulaires\
-- Suivi et contrôle de la collecte, gestion des droits\
-- Stockage, Vérification, modification des données collectées\
-- Exploration et visualisation des données\
-- Export des données (Excel, JSON, KML...)
+-   Création, modification et déploiement des formulaires\
+-   Suivi et contrôle de la collecte, gestion des droits\
+-   Stockage, Vérification, modification des données collectées\
+-   Exploration et visualisation des données\
+-   Export des données (Excel, JSON, KML...)
 :::
 :::
 
 ::: {.column width="45%"}
 \
 
-::: {.center}
-![](images/KoboTools.jpg){width=80%}
+::: center
+![](images/KoboTools.jpg){width="80%"}
 :::
 :::
 :::
-
 
 ::: bigbis
 **Application de collecte (KoboCollect, Enketo, GIC collect, page web)**\
 :::
 
 ::: big5
-- Téléchargement des formulaires d'enquêtes\
-- Saisie des données via téléphone, tablette ou ordinateur\
-- Sauvergarde des réponses saisies sur l'appareil\
-- Envoi maitrisé des réponses sur le serveur KoBotoolBox
+-   Téléchargement des formulaires d'enquêtes\
+-   Saisie des données via téléphone, tablette ou ordinateur\
+-   Sauvergarde des réponses saisies sur l'appareil\
+-   Envoi maitrisé des réponses sur le serveur KoBotoolBox
 :::
-
 
 ## 1. Création de compte Kobotoolbox
 
@@ -373,16 +353,15 @@ Cliquez sur ***Create an account***.
 
 ## 1. Création de compte
 
-Vous recevrez un email qui vous permettra d'**activer votre compte**. 
+Vous recevrez un email qui vous permettra d'**activer votre compte**.
 
 ![](images/activate.jpg)
-
 
 ## 2. Création du formulaire
 
 \
 
-::: {.bigbis}
+::: bigbis
 **Depuis votre compte KoboToolbox :**
 :::
 
@@ -390,31 +369,23 @@ Vous recevrez un email qui vous permettra d'**activer votre compte**.
 
 ::: columns
 ::: {.column width="50%"}
-
 A. Cliquez sur ***NEW*** pour créer un questionnaire
 
 ![](images/2a.jpg){width="498"}
-
 :::
-
 
 ::: {.column width="50%"}
-
-B. Renseignez les informations générales 
+B. Renseignez les informations générales
 
 ![](images/3a.jpg){width="465"}
-
 :::
-
 :::
-
-
 
 ## 3. Ajout d'une question
 
-**Cliquez sur le signe + pour ajouter votre première question :** 
+**Cliquez sur le signe + pour ajouter votre première question :**
 
-![](images/5a.jpg) 
+![](images/5a.jpg)
 
 **Définissez le type de question souhaité :**
 
@@ -426,8 +397,7 @@ B. Renseignez les informations générales
 
 ![](images/questions.jpg)
 
-
-::: {.center}
+::: center
 Voir un [formulaire exemple](https://enke.to/x/widgets){target="_blank"}
 :::
 
@@ -436,38 +406,30 @@ Voir un [formulaire exemple](https://enke.to/x/widgets){target="_blank"}
 ```{=html}
 <iframe width="990" height="580" src="https://docs.google.com/spreadsheets/d/1JYH0ca-piUKepoq-DXjVl5qLTUVM18ZY/edit#gid=716438668" title="xlsform"></iframe>
 ```
-
-
 ## 5. Déploiement du formulaire (page web)
 
-Une fois le questionaire saisi et validé, **il doit être déployé pour activer la phase de collecte**.    
+Une fois le questionaire saisi et validé, **il doit être déployé pour activer la phase de collecte**.\
 **Un lien sera automatiquement créé.**
 
-![](images/deploy.jpg) ![](images/link.jpg) 
+![](images/deploy.jpg) ![](images/link.jpg)
 
 ## 6. Déploiement sur smartphone
 
 Possibilité de télécharger le questionnaire dans l'application koboCollect, Enketo ou GIC collect.
 
-
 ::: columns
-
-
 ::: {.column width="50%"}
-:::{.center}
-![](images/smartphone2.png){width=60%}
+::: center
+![](images/smartphone2.png){width="60%"}
 :::
 :::
 
-
 ::: {.column width="50%"}
-:::{.center}
+::: center
 ![](images/smartphone.png)
 :::
 :::
 :::
-
-
 
 ## 7. Administration de la collecte
 
@@ -475,39 +437,33 @@ Possibilité de télécharger le questionnaire dans l'application koboCollect, E
 -   **Supervision des collecteurs**
 -   **Contrôle des données** collectées
 
-::: {.center}
-
-![](images/admin.jpg)
-![](images/edit.jpg)
-
+::: center
+![](images/admin.jpg) ![](images/edit.jpg)
 :::
 
 ## 8. Exploration des données collectées
 
 Des **outils d'exploration et de visualisation** des données collectées.
 
-![](images/viz.jpg)
-![](images/graphique.jpg)
+![](images/viz.jpg) ![](images/graphique.jpg)
 
 ## 9. Export des données
 
 **Plusieurs formats d'export** disponibles.
 
-![](images/format d'export.jpg)
+![](images/format%20d'export.jpg)
 
 ## Conclusion
 
-
-
 ::: {.bigbis style="margin-top:35px;"}
-**Limites :** 
+**Limites :**
 :::
 
 ::: big5
-- **Plus orienté enquête quantitative** que qualitative  
-- Pas adapté à tous les types d'enquête (ex : longitudinale)   
-- **Nombre de soumissions limitées** (5000/mois max)    
-- Respect de la RGPD mais **pas de contrôle totale des données**    
+-   **Plus orienté enquête quantitative** que qualitative\
+-   Pas adapté à tous les types d'enquête (ex : longitudinale)\
+-   **Nombre de soumissions limitées** (5000/mois max)\
+-   Respect de la RGPD mais **pas de contrôle totale des données**\
 :::
 
 ::: {.bigbis style="margin-top:35px;"}
@@ -515,27 +471,24 @@ Des **outils d'exploration et de visualisation** des données collectées.
 :::
 
 ::: big5
-- **Gratuit** et **Open Source**
-- **Eventail très large des fonctionnalités**
-- Optimisé pour la **collecte collaborative à grande échelle**
-- Possibilité d'**installer sa propre instance**
-- Collecte rapide et de manière fiable des données sur **Android**, **iOS** et de nombreux autres appareils, **en ligne ou hors ligne**, avec une logique de renvoi complexe.
+-   **Gratuit** et **Open Source**
+-   **Eventail très large des fonctionnalités**
+-   Optimisé pour la **collecte collaborative à grande échelle**
+-   Possibilité d'**installer sa propre instance**
+-   Collecte rapide et de manière fiable des données sur **Android**, **iOS** et de nombreux autres appareils, **en ligne ou hors ligne**, avec une logique de renvoi complexe.
 :::
 
 ## Ressources utiles
 
 \
 
-
-::: {.txt6}  
-
-- [https://www.KoBotoolBox.org](https://www.KoBotoolBox.org){target="_blank"} 
-- [https://community.KoBotoolBox.org](https://community.KoBotoolBox.org){target="_blank"} 
-- [https://support.KoBotoolBox.org](https://support.KoBotoolBox.org){target="_blank"}  
-- [https://docs.google.com/presentation/d/1vJMWBBcMNlnQP1dUa7WsTuA4mSwifgEnj-TtjGwmcuY/htmlpresent](https://docs.google.com/presentation/d/1vJMWBBcMNlnQP1dUa7WsTuA4mSwifgEnj-TtjGwmcuY/htmlpresent){target="_blank"}
-- [https://cartong.pages.gitlab.cartong.org/learning-corner/fr/8_managing_mdc/8_2_tool_focus/8_2_4_correction](https://cartong.pages.gitlab.cartong.org/learning-corner/fr/8_managing_mdc/8_2_tool_focus/8_2_4_correction){target="_blank"} 
-
-::: 
+::: txt6
+-   [https://www.KoBotoolBox.org](https://www.KoBotoolBox.org){target="_blank"}
+-   [https://community.KoBotoolBox.org](https://community.KoBotoolBox.org){target="_blank"}
+-   [https://support.KoBotoolBox.org](https://support.KoBotoolBox.org){target="_blank"}\
+-   [https://docs.google.com/presentation/d/1vJMWBBcMNlnQP1dUa7WsTuA4mSwifgEnj-TtjGwmcuY/htmlpresent](https://docs.google.com/presentation/d/1vJMWBBcMNlnQP1dUa7WsTuA4mSwifgEnj-TtjGwmcuY/htmlpresent){target="_blank"}
+-   [https://cartong.pages.gitlab.cartong.org/learning-corner/fr/8_managing_mdc/8_2_tool_focus/8_2_4_correction](https://cartong.pages.gitlab.cartong.org/learning-corner/fr/8_managing_mdc/8_2_tool_focus/8_2_4_correction){target="_blank"}
+:::
 
 ## Remerciements
 
@@ -543,31 +496,30 @@ Des **outils d'exploration et de visualisation** des données collectées.
 
 ::: columns
 ::: {.column width="55%"}
-:::{.center}
-![](images/geoteca.png){width=55%}
+::: center
+![](images/geoteca.png){width="55%"}
 :::
 :::
 
 ::: {.column width="45%"}
-:::{.center}
-
-
-
-::: columns   
+::: center
+::: columns
 ::: {.column width="5%"}
 :::
+
 ::: {.column width="40%"}
-![](images/logoPRODIG.png){width=90%}
+![](images/logoPRODIG.png){width="90%"}
 :::
+
 ::: {.column width="5%"}
 :::
-::: {.column width="30%"}
 
-![](images/cist-logo-bleu_sur_blanc.png){width=100%}
+::: {.column width="30%"}
+![](images/cist-logo-bleu_sur_blanc.png){width="100%"}
 :::
+
 ::: {.column width="20%"}
 :::
-
 :::
 :::
 :::
@@ -575,16 +527,15 @@ Des **outils d'exploration et de visualisation** des données collectées.
 
 \
 
-::: columns   
+::: columns
 ::: {.column width="55%"}
-:::{.center}
-![](images/USSEIN-LOGO-entete-site.png){width=35%}
+::: center
+![](images/USSEIN-LOGO-entete-site.png){width="35%"}
 :::
 :::
 
 ::: {.column width="45%"}
-:::{.center}
-
+::: center
 \
 
 **Hugues Pecout**
@@ -592,22 +543,21 @@ Des **outils d'exploration et de visualisation** des données collectées.
 ::: columns
 ::: {.column width="20%"}
 :::
+
 ::: {.column width="20%"}
-![](images/cnrs.png){width=90%}
+![](images/cnrs.png){width="90%"}
 :::
+
 ::: {.column width="10%"}
 :::
+
 ::: {.column width="20%"}
-![](images/geographie-cites_logo.png){width=90%}
+![](images/geographie-cites_logo.png){width="90%"}
 :::
+
 ::: {.column width="20%"}
 :::
 :::
-
-
 :::
 :::
-
-
 :::
-
