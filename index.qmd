@@ -131,11 +131,11 @@ Il est développé par la ***Harvard Humantarian Initiative*** pour une utilisat
 **KoBo se compose :**
 
 -   d'une **plateforme en ligne** : [**KoboToolbox**](https://kf.KoBotoolBox.org/){target="_blank"}\
--   d'une **application de collecte** de données : [**KoboCollect**](https://play.google.com/store/apps/details?id=org.koboc.collect.android&hl=fr&gl=US){target="_blank"} (ou [Enketo](https://enketo.org/){target="_blank"} et [GIC Collect](https://apps.apple.com/kh/app/gic-collect/id1485932698?l=fr){target="_blank"} pour Apple)
+-   d'une **application de collecte** de données : [**KoboCollect**](https://play.google.com/store/apps/details?id=org.koboc.collect.android&hl=fr&gl=US){target="_blank"} (ou [Enketo](https://enketo.org/){target="_blank"} et [GIC Collect](https://apps.apple.com/kh/app/gic-collect/id1485932698?l=fr){target="_blank"} pour IOS)
 
 ![](images/Kobocollect.jpg)
 
-## Respect de la RGPD ? {.smaller}
+## Respect de la RGPD {.smaller}
 
 ::: center
 ![](images/rgpd.jpeg){width="50%"}
@@ -156,7 +156,7 @@ Les données collectées et envoyées sur [la plateforme KobotToolBox mise à di
 
 :::
 
-## Respect de la RGPD ? {.smaller}
+## Instance privée {.smaller}
 
 **KoboToolbox est un outil Open source. Pour s'assurer d'avoir la maîtrise totale de vos données, il est possible d'installer son instance KoboToolbox sur son propre serveur.** Cela permet d'avoir  son instance personnalisée avec des configurations de sécurité améliorées.
 
@@ -351,7 +351,7 @@ Voir le [formulaire](https://ee.kobotoolbox.org/x/94cwK1ga){target="_blank"}
 
 ::: big5
 - Téléchargement des formulaires d'enquêtes\
-- Saisie des données via telephone, tablette ou ordinateur\
+- Saisie des données via téléphone, tablette ou ordinateur\
 - Sauvergarde des réponses saisies sur l'appareil\
 - Envoi maitrisé des réponses sur le serveur KoBotoolBox
 :::
@@ -428,7 +428,7 @@ B. Renseignez les informations générales
 
 
 ::: {.center}
-Voir un [exemple de formulaire complet](https://enke.to/x/widgets){target="_blank"}
+Voir un [formulaire exemple](https://enke.to/x/widgets){target="_blank"}
 :::
 
 ## 4. Création du questionnaire via XLS form
@@ -438,16 +438,16 @@ Voir un [exemple de formulaire complet](https://enke.to/x/widgets){target="_blan
 ```
 
 
-## 5. Deploiement du formulaire (page web)
+## 5. Déploiement du formulaire (page web)
 
 Une fois le questionaire saisi et validé, **il doit être déployé pour activer la phase de collecte**.    
-Un lien sera automatiquement créé.
+**Un lien sera automatiquement créé.**
 
 ![](images/deploy.jpg) ![](images/link.jpg) 
 
-## 6. Deploiement sur smartphone
+## 6. Déploiement sur smartphone
 
-Possibiliter de télécharger le questionnaire dans l'application koboCollect, Enketo ou GIC collect.
+Possibilité de télécharger le questionnaire dans l'application koboCollect, Enketo ou GIC collect.
 
 
 ::: columns
@@ -505,7 +505,7 @@ Des **outils d'exploration et de visualisation** des données collectées.
 
 ::: big5
 - **Plus orienté enquête quantitative** que qualitative  
-- Pas adapté à tout les types d'enquête (ex : longitudinale)   
+- Pas adapté à tous les types d'enquête (ex : longitudinale)   
 - **Nombre de soumissions limitées** (5000/mois max)    
 - Respect de la RGPD mais **pas de contrôle totale des données**    
 :::
@@ -557,7 +557,7 @@ Des **outils d'exploration et de visualisation** des données collectées.
 ::: {.column width="5%"}
 :::
 ::: {.column width="40%"}
-![](images/logo_PRODIG.png){width=100%}
+![](images/logoPRODIG.png){width=90%}
 :::
 ::: {.column width="5%"}
 :::
